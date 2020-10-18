@@ -76,9 +76,9 @@ Rating data set has been successfully loaded.
  * Paired t-test on item's average rating between UI and IC matrix: absolute mean diff = 0.08886438685006359, p-value = 1.9845706922083956E-4
  *
  *******************************************************************************************************************************************/
-With Setup: given-ratio -r 0.8
-51 users have been splitted.
+With Setup: given-ratio -r 0.8 --early-stop RMSE
+48 users have been splitted.
 User Splitting is done... Algorithm 'svd++' will be applied to the transformed data set.
-Density of transformed 2D rating matrix ============================== 0.1675504618542593
-Final Results by UserSplitting-SVD++, MAE: 0.747230, RMSE: 1.062307, NAME: 0.186807, rMAE: 0.726083, rRMSE: 1.098841, MPE: 0.000000, numFactors: 10, numIter: 100, lrate: 0.02, maxlrate: -1.0, regB: 1.0E-4, regU: 1.0E-4, regI: 1.0E-4, regC: 0.001, isBoldDriver: true, Time: '00:00','00:00'
+Density of transformed 2D rating matrix ============================== 0.17206460061108686
+Final Results by UserSplitting-SVD++, MAE: 0.755088, RMSE: 1.088281, NAME: 0.188772, rMAE: 0.754422, rRMSE: 1.125340, MPE: 0.000000, numFactors: 10, numIter: 100, lrate: 0.02, maxlrate: -1.0, regB: 1.0E-4, regU: 1.0E-4, regI: 1.0E-4, regC: 0.001, isBoldDriver: true, Time: '00:00','00:00'
 
