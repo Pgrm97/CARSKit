@@ -1,0 +1,4 @@
+[INFO ] 2020-10-12 13:19:52,163 -- WorkingPath: C:\Users\Pgrm9\Desktop\CARSKit-master\context-aware_data_sets\Movie_DePaulMovie\CARSKit.Workspace\
+[INFO ] 2020-10-12 13:19:52,172 -- Your original rating data path: C:\Users\Pgrm9\Desktop\CARSKit-master\context-aware_data_sets\Movie_DePaulMovie\mochilerosrddatabase-export.json
+[INFO ] 2020-10-12 13:19:52,172 -- Current working path: C:\Users\Pgrm9\Desktop\CARSKit-master\context-aware_data_sets\Movie_DePaulMovie\CARSKit.Workspace\
+[ERROR] 2020-10-12 13:19:52,177 -- Index -1 out of bounds for length 1

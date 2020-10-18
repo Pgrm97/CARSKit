@@ -51,6 +51,16 @@ public class SVDPlusPlus extends BiasedMF {
 
         userItemsCache = train.rowColumnsCache(cacheSpec);
     }
+    
+    @Override
+    protected void loadModel() throws Exception {
+        super.loadModel();
+
+        Y = new DenseMatrix(numItems, numFactors);
+        Y.init(initMean, initStd);
+
+        userItemsCache = train.rowColumnsCache(cacheSpec);
+    }
 
     @Override
     protected void buildModel() throws Exception {

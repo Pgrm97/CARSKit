@@ -1,0 +1,3 @@
+WorkingPath: C:\Users\Pgrm9\Desktop\CARSKit-master\context-aware_data_sets\Movie_DePaulMovie\CARSKit.Workspace\
+Your original rating data path: C:\Users\Pgrm9\Desktop\CARSKit-master\context-aware_data_sets\Movie_DePaulMovie\mochilerosrddatabase-export.json
+Current working path: C:\Users\Pgrm9\Desktop\CARSKit-master\context-aware_data_sets\Movie_DePaulMovie\CARSKit.Workspace\

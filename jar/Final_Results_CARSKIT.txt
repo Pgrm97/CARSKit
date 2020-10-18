@@ -1,0 +1,2 @@
+Final Results by SVD++, MAE: 0.893596, RMSE: 1.145730, NAME: 0.223399, rMAE: 0.874866, rRMSE: 1.186892, MPE: 0.000000, numFactors: 10, numIter: 100, lrate: 0.02, maxlrate: -1.0, regB: 1.0E-4, regU: 1.0E-4, regI: 1.0E-4, regC: 0.001, isBoldDriver: true, Time: '00:04','00:00'
+Final Results by SVD++, MAE: 0.881933, RMSE: 1.137168, NAME: 0.220483, rMAE: 0.862874, rRMSE: 1.178150, MPE: 0.000000, numFactors: 10, numIter: 100, lrate: 0.02, maxlrate: -1.0, regB: 1.0E-4, regU: 1.0E-4, regI: 1.0E-4, regC: 0.001, isBoldDriver: true, Time: '00:01','00:00'
