@@ -317,17 +317,16 @@ public abstract class Recommender implements Runnable{
         Stopwatch sw = Stopwatch.createStarted();
         if (Debug.ON) {
             // learn a recommender model
-        	loadModel();
-        	//initModel();
+        	initModel();
 
             // show algorithm's configuration
             // printAlgoConfig();
 
             // build the model
-            //buildModel();
+            buildModel();
 
             // post-processing after building a model, e.g., release intermediate memory to avoid memory leak
-            //postModel();
+            postModel();
         } else {
             /**
              * load a learned model: this code will not be executed unless "Debug.OFF" mainly for the purpose of
