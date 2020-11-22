@@ -1,0 +1,84 @@
+WorkingPath: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\MochilerosRD\RecommendationResults\
+Your original rating data path: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\MochilerosRD\mochileros_rd_ratings.csv
+Current working path: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\MochilerosRD\RecommendationResults\
+User, Item, Rating, weather:sunny, rain:no, visibility:1, temperature:>30 < 35, clouds:0
+Data transformaton completed (from Compact to Binary format). See new rating file: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\MochilerosRD\RecommendationResults\train.csv
+Dataset: ...sRD\RecommendationResults\train.csv
+DataPath: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\MochilerosRD\RecommendationResults\train.csv
+Rating data set has been successfully loaded.
+
+/***************************************************************************************************************
+ *
+ * Dataset: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\MochilerosRD\RecommendationResults\train.csv
+ * 
+ * Statistics of U-I-C Matrix:
+ * User amount: 20
+ * Item amount: 20
+ * Rate amount: 20
+ * Context dimensions: 5 (weather, rain, visibility, temperature, clouds)
+ * Context conditions: 5 (weather: 1, rain: 1, visibility: 1, temperature: 1, clouds: 1)
+ * Context situations: 1
+ * Data density: 5.0000%
+ * Scale distribution: [1.0 x 3, 4.0 x 5, 2.0 x 3, 5.0 x 7, 3.0 x 2]
+ * Average value of all ratings: 3.500000
+ * Standard deviation of all ratings: 1.466288
+ * Mode of all rating values: 5.000000
+ * Median of all rating values: 4.000000
+ * 
+ * Distribution of rate counts per user: mean = 1.0, median = 1.0, sd = 0.0
+ * Distribution of rate counts per item: mean = 1.0, median = 1.0, sd = 0.0
+ * Distribution of rate counts per context condition: mean = 20.0, median = 20.0, sd = 0.0
+ * 
+ * Average rating in each context condition: (Average, Counts)
+ * weather:sunny - 3.500000, 20
+ * rain:no - 3.500000, 20
+ * visibility:1 - 3.500000, 20
+ * temperature:>30 < 35 - 3.500000, 20
+ * clouds:0 - 3.500000, 20
+ * 
+ * Statistics of UI Matrix:
+ * User amount: 20
+ * Item amount: 20
+ * Rate amount: 20.0
+ * Data density: 5.0000%
+ * Data density (unique pairs): 0.0000%
+ * Average value of all ratings: 3.500000
+ * Standard deviation of all ratings: 1.466288
+ * Mode of all rating values: 5.000000
+ * Median of all rating values: 4.000000
+ * Distribution of rate counts per UI pair: mean = 1.0, median = 1.0, sd = 0.0
+ * 
+ * Statistics of UC Matrix:
+ * User amount: 20
+ * Condition amount: 5
+ * Rate amount: 100.0
+ * Data density: 100.0000%
+ * Data density (unique pairs): 0.0000%
+ * Average value of all ratings: 3.500000
+ * Standard deviation of all ratings: 1.466288
+ * Mode of all rating values: 5.000000
+ * Median of all rating values: 4.000000
+ * Distribution of rate counts per UC pair: mean = 1.0, median = 1.0, sd = 0.0
+ * 
+ * Statistics of IC Matrix:
+ * Item amount: 20
+ * Condition amount: 5
+ * Rate amount: 100.0
+ * Data density: 100.0000%
+ * Data density (unique pairs): 0.0000%
+ * Average value of all ratings: 3.500000
+ * Standard deviation of all ratings: 1.466288
+ * Mode of all rating values: 5.000000
+ * Median of all rating values: 4.000000
+ * Distribution of rate counts per IC pair: mean = 1.0, median = 1.0, sd = 0.0
+ * 
+ * Paired t-test on user's average rating between UI and UC matrix: absolute mean diff = 0.0, p-value = NaN
+ * Paired t-test on item's average rating between UI and IC matrix: absolute mean diff = 0.0, p-value = NaN
+ *
+ ***************************************************************************************************************/
+With Setup: given-ratio -r 0.8 --early-stop RMSE
+0 users have been splitted.
+User Splitting is done... Algorithm 'svd++' will be applied to the transformed data set.
+Density of transformed 2D rating matrix ============================== 0.0425
+Final Results by UserSplitting-SVD++, Pre5: NaN,Pre10: NaN, Rec5: NaN, Rec10: NaN, AUC5: NaN, AUC10: NaN, MAP5: NaN, MAP10: NaN,NDCG5: NaN, NDCG10: NaN,MRR5: NaN, MRR10: NaN, numFactors: 100, numIter: 100, lrate: 5.0E-5, maxlrate: -1.0, regB: 1.0E-4, regU: 1.0E-4, regI: 1.0E-4, regC: 0.001, isBoldDriver: true, Time: '00:00','00:00'
+

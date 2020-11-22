@@ -1,0 +1,86 @@
+WorkingPath: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Movie_DePaulMovie\RecommendationResults\
+Your original rating data path: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Movie_DePaulMovie\ratings.csv
+Current working path: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Movie_DePaulMovie\RecommendationResults\
+User, Item, Rating, time:na, time:weekday, time:weekend, location:na, location:cinema, location:home, companion:na, companion:alone, companion:family, companion:partner
+Data transformaton completed (from Compact to Binary format). See new rating file: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Movie_DePaulMovie\RecommendationResults\train.csv
+Dataset: ...vie\RecommendationResults\train.csv
+DataPath: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Movie_DePaulMovie\RecommendationResults\train.csv
+Rating data set has been successfully loaded.
+
+/*******************************************************************************************************************************************
+ *
+ * Dataset: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Movie_DePaulMovie\RecommendationResults\train.csv
+ * 
+ * Statistics of U-I-C Matrix:
+ * User amount: 97
+ * Item amount: 79
+ * Rate amount: 5035
+ * Context dimensions: 3 (time, location, companion)
+ * Context conditions: 10 (time: 3, location: 3, companion: 4)
+ * Context situations: 13
+ * Data density: 1.8230%
+ * Scale distribution: [1.0 x 829, 2.0 x 625, 4.0 x 1209, 5.0 x 1367, 3.0 x 1005]
+ * Average value of all ratings: 3.328892
+ * Standard deviation of all ratings: 1.414777
+ * Mode of all rating values: 5.000000
+ * Median of all rating values: 4.000000
+ * 
+ * Distribution of rate counts per user: mean = 51.90721649484536, median = 44.0, sd = 35.4956313485113
+ * Distribution of rate counts per item: mean = 63.734177215189874, median = 57.0, sd = 35.492808635403236
+ * Distribution of rate counts per context condition: mean = 1538.142857142857, median = 1630.0, sd = 317.8712356426413
+ * 
+ * Average rating in each context condition: (Average, Counts)
+ * time:weekday - 3.129863, 1748
+ * time:weekend - 3.340033, 1841
+ * location:cinema - 3.259316, 1959
+ * location:home - 3.211656, 1630
+ * companion:alone - 3.197099, 1172
+ * companion:family - 3.163433, 1340
+ * companion:partner - 3.374188, 1077
+ * 
+ * Statistics of UI Matrix:
+ * User amount: 97
+ * Item amount: 79
+ * Rate amount: 1443.0
+ * Data density: 18.8307%
+ * Data density (unique pairs): 88.2883%
+ * Average value of all ratings: 3.358276
+ * Standard deviation of all ratings: 1.253307
+ * Mode of all rating values: 5.000000
+ * Median of all rating values: 3.666667
+ * Distribution of rate counts per UI pair: mean = 3.4892584892584892, median = 4.0, sd = 0.9887038725511924
+ * 
+ * Statistics of UC Matrix:
+ * User amount: 97
+ * Condition amount: 10
+ * Rate amount: 536.0
+ * Data density: 55.2577%
+ * Data density (unique pairs): 100.0000%
+ * Average value of all ratings: 3.100297
+ * Standard deviation of all ratings: 0.967798
+ * Mode of all rating values: 1.000000
+ * Median of all rating values: 3.240385
+ * Distribution of rate counts per UC pair: mean = 20.08768656716418, median = 16.0, sd = 15.32075455129945
+ * 
+ * Statistics of IC Matrix:
+ * Item amount: 79
+ * Condition amount: 10
+ * Rate amount: 552.0
+ * Data density: 69.8734%
+ * Data density (unique pairs): 98.5507%
+ * Average value of all ratings: 3.094907
+ * Standard deviation of all ratings: 0.705512
+ * Mode of all rating values: 3.000000
+ * Median of all rating values: 3.153125
+ * Distribution of rate counts per IC pair: mean = 19.505434782608695, median = 18.0, sd = 12.133166881695804
+ * 
+ * Paired t-test on user's average rating between UI and UC matrix: absolute mean diff = 0.19367884023212056, p-value = 3.614176372518377E-15
+ * Paired t-test on item's average rating between UI and IC matrix: absolute mean diff = 0.08886438685006359, p-value = 1.9845706922083956E-4
+ *
+ *******************************************************************************************************************************************/
+With Setup: given-ratio -r 0.8 --early-stop RMSE
+53 users have been splitted.
+User Splitting is done... Algorithm 'svd++' will be applied to the transformed data set.
+Density of transformed 2D rating matrix ============================== 0.16632911392405064
+Final Results by UserSplitting-SVD++, Pre5: 0.059754,Pre10: 0.061544, Rec5: 0.154087, Rec10: 0.265980, AUC5: 0.615283, AUC10: 0.684803, MAP5: 0.058809, MAP10: 0.078299,NDCG5: 0.095622, NDCG10: 0.143913,MRR5: 0.108459, MRR10: 0.134139, numFactors: 10, numIter: 200, lrate: 2.0E-5, maxlrate: -1.0, regB: 1.0E-4, regU: 1.0E-4, regI: 1.0E-4, regC: 0.001, isBoldDriver: true, Time: '00:01','00:00'
+

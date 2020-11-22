@@ -1,0 +1,396 @@
+WorkingPath: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Travel_STS\RecommendationResults\
+Your original rating data path: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Travel_STS\STS_Dataset.csv
+Current working path: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Travel_STS\RecommendationResults\
+User, Item, Rating, birthdate:null, birthdate:10/07/1985, birthdate:25/03/1976, birthdate:05/02/1983, birthdate:05/08/1987, birthdate:01/02/1984, birthdate:02/04/1985, birthdate:01/07/1976, birthdate:24/08/1980, birthdate:04/01/1981, birthdate:02/04/1982, birthdate:04/05/1980, birthdate:22/01/1984, birthdate:10/02/1991, birthdate:03/05/1990, birthdate:08/10/1981, birthdate:30/01/1991, birthdate:25/12/1959, birthdate:28/02/1975, birthdate:07/04/1988, birthdate:11/04/1989, birthdate:23/06/1989, birthdate:16/06/1992, birthdate:10/11/1985, birthdate:18/01/1989, birthdate:10/03/1988, birthdate:07/01/1986, birthdate:04/04/1988, birthdate:07/07/1990, birthdate:07/10/1985, birthdate:04/04/1984, birthdate:02/05/1984, birthdate:10/03/1971, birthdate:04/04/1982, birthdate:09/06/1985, birthdate:08/03/1966, birthdate:14/04/1986, birthdate:01/01/1985, birthdate:28/11/1992, birthdate:05/04/1982, birthdate:22/04/1975, birthdate:21/11/1985, birthdate:09/04/1989, birthdate:04/06/1984, birthdate:27/05/1977, birthdate:17/08/1985, birthdate:17/11/1987, birthdate:27/11/1991, birthdate:14/05/1989, birthdate:20/06/1991, birthdate:09/05/1990, birthdate:21/05/1989, birthdate:06/07/1990, birthdate:29/08/1986, birthdate:11/07/1984, birthdate:20/04/1983, birthdate:03/07/1981, birthdate:12/11/1990, birthdate:20/03/1993, birthdate:03/11/1993, birthdate:21/12/1986, birthdate:06/05/1993, birthdate:22/04/1993, birthdate:16/09/1986, birthdate:13/05/1984, birthdate:23/05/1985, birthdate:24/05/1975, birthdate:10/05/1991, birthdate:27/05/1981, birthdate:13/08/1985, birthdate:09/02/1980, birthdate:21/10/1989, birthdate:13/10/1991, birthdate:11/09/1989, birthdate:19/06/1984, birthdate:19/06/1983, birthdate:16/03/1983, birthdate:25/07/1986, birthdate:17/04/1973, birthdate:12/03/1966, birthdate:23/04/1987, birthdate:27/01/1992, birthdate:27/10/1992, birthdate:27/03/1970, birthdate:22/04/1986, birthdate:14/04/1988, birthdate:05/04/1995, birthdate:27/02/1992, birthdate:16/10/1992, birthdate:19/02/1962, birthdate:29/09/1970, birthdate:30/11/1990, birthdate:14/06/1992, birthdate:12/09/1984, birthdate:18/09/1984, birthdate:05/08/1972, birthdate:06/11/1989, birthdate:31/08/1982, birthdate:13/09/2004, birthdate:18/09/1987, birthdate:20/09/1983, birthdate:15/05/1981, birthdate:14/06/1981, birthdate:11/01/1969, birthdate:13/09/1993, birthdate:03/04/1975, birthdate:27/09/1986, birthdate:27/09/1957, birthdate:12/03/1984, birthdate:18/07/1983, birthdate:23/04/1989, birthdate:03/12/1990, birthdate:17/03/1970, birthdate:18/05/1996, birthdate:27/04/1994, birthdate:01/05/1980, birthdate:13/09/1994, birthdate:26/07/1994, birthdate:17/08/1974, birthdate:06/12/1975, birthdate:06/11/1991, birthdate:09/12/1964, birthdate:24/10/1985, birthdate:13/06/1985, birthdate:23/01/1990, birthdate:03/12/1987, birthdate:17/09/1993, birthdate:25/10/1992, birthdate:28/12/1967, birthdate:30/03/1960, birthdate:31/10/1973, birthdate:04/05/1998, birthdate:11/06/1979, birthdate:03/01/1963, birthdate:14/04/1983, birthdate:15/05/1985, birthdate:02/04/1988, birthdate:23/01/1986, birthdate:09/01/1963, birthdate:04/05/1957, birthdate:09/06/1976, birthdate:10/10/1997, birthdate:28/12/1989, birthdate:02/10/1989, birthdate:15/11/1973, birthdate:20/10/1990, birthdate:12/12/1959, birthdate:12/12/1969, birthdate:02/07/1986, birthdate:10/05/1980, birthdate:29/06/1968, birthdate:09/06/1989, birthdate:20/03/1969, birthdate:13/01/1986, birthdate:08/01/1988, birthdate:08/01/1970, birthdate:09/01/1991, birthdate:09/01/1962, birthdate:23/07/1995, birthdate:17/02/1987, birthdate:15/07/1986, birthdate:10/02/1941, birthdate:10/02/1954, birthdate:26/07/1946, birthdate:15/02/1946, birthdate:13/02/1940, birthdate:07/12/1947, birthdate:20/04/1947, birthdate:13/02/1943, birthdate:20/04/1965, birthdate:24/03/1963, birthdate:11/04/1985, birthdate:03/04/2005, gender:null, gender:m, gender:f, opennesstoexperience:null, opennesstoexperience:6, opennesstoexperience:5, opennesstoexperience:4, opennesstoexperience:3, opennesstoexperience:7, opennesstoexperience:2, conscientiousness:null, conscientiousness:5, conscientiousness:4, conscientiousness:6, conscientiousness:3, conscientiousness:7, conscientiousness:2, conscientiousness:1, extraversion:null, extraversion:4, extraversion:1, extraversion:3, extraversion:5, extraversion:6, extraversion:2, extraversion:7, agreeableness:null, agreeableness:4, agreeableness:5, agreeableness:3, agreeableness:6, agreeableness:2, agreeableness:7, emotionalstability:null, emotionalstability:5, emotionalstability:6, emotionalstability:4, emotionalstability:7, emotionalstability:2, emotionalstability:3, distance:null, distance:1, distance:2, timeavailable:null, timeavailable:1, timeavailable:2, timeavailable:3, temperature:5, temperature:null, temperature:2, temperature:3, temperature:4, temperature:1, temperature:6, crowdedness:null, crowdedness:1, crowdedness:2, crowdedness:3, knowledgeofsurroundings:null, knowledgeofsurroundings:1, knowledgeofsurroundings:2, knowledgeofsurroundings:3, season:null, season:4, season:1, season:3, season:2, budget:null, budget:3, budget:1, budget:2, daytime:null, daytime:1, daytime:3, daytime:5, weather:null, weather:6, weather:2, weather:4, weather:1, weather:3, weather:5, companion:null, companion:2, companion:5, companion:4, companion:1, companion:3, mood:null, mood:4, mood:3, mood:1, mood:2, weekday:null, weekday:2, weekday:1, travelgoal:null, travelgoal:6, travelgoal:5, travelgoal:1, travelgoal:4, travelgoal:9, travelgoal:3, travelgoal:7, travelgoal:2, travelgoal:8, transport:null, transport:2, transport:3, transport:1, transport:4, category1:1, category1:2, category1:3, category1:4, category1:5, category1:6, category1:7, category1:8, category1:9, category1:10, category1:11, category1:12, category1:14, category1:15, category1:16, category1:17, category1:18, category1:19, category1:20, category1:21, category1:22, category1:23, category1:24, category1:27, category1:28, category1:25, category1:29, category2:null, category2:13, category2:25, category2:26, category3:null, category3:26
+Data transformaton completed (from Compact to Binary format). See new rating file: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Travel_STS\RecommendationResults\train.csv
+Dataset: ...STS\RecommendationResults\train.csv
+DataPath: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Travel_STS\RecommendationResults\train.csv
+Rating data set has been successfully loaded.
+
+/******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+ *
+ * Dataset: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Travel_STS\RecommendationResults\train.csv
+ * 
+ * Statistics of U-I-C Matrix:
+ * User amount: 325
+ * Item amount: 249
+ * Rate amount: 2414
+ * Context dimensions: 24 (birthdate, gender, opennesstoexperience, conscientiousness, extraversion, agreeableness, emotionalstability, distance, timeavailable, temperature, crowdedness, knowledgeofsurroundings, season, budget, daytime, weather, companion, mood, weekday, travelgoal, transport, category1, category2, category3)
+ * Context conditions: 317 (birthdate: 173, gender: 3, opennesstoexperience: 7, conscientiousness: 8, extraversion: 8, agreeableness: 7, emotionalstability: 7, distance: 3, timeavailable: 4, temperature: 7, crowdedness: 4, knowledgeofsurroundings: 4, season: 5, budget: 4, daytime: 4, weather: 7, companion: 6, mood: 5, weekday: 3, travelgoal: 10, transport: 5, category1: 27, category2: 4, category3: 2)
+ * Context situations: 1496
+ * Data density: -0.0000%
+ * Scale distribution: [2.0 x 298, 4.0 x 708, 1.0 x 265, 5.0 x 644, 3.0 x 499]
+ * Average value of all ratings: 3.494292
+ * Standard deviation of all ratings: 1.301028
+ * Mode of all rating values: 4.000000
+ * Median of all rating values: 4.000000
+ * 
+ * Distribution of rate counts per user: mean = 7.427692307692308, median = 5.0, sd = 11.250647949782262
+ * Distribution of rate counts per item: mean = 9.694779116465863, median = 1.0, sd = 33.067097614243934
+ * Distribution of rate counts per context condition: mean = 182.76340694006308, median = 8.0, sd = 497.3170518064056
+ * 
+ * Average rating in each context condition: (Average, Counts)
+ * birthdate:null - 3.276256, 1314
+ * birthdate:10/07/1985 - 5.000000, 1
+ * birthdate:25/03/1976 - 4.000000, 1
+ * birthdate:05/02/1983 - 4.117647, 17
+ * birthdate:05/08/1987 - 4.428571, 7
+ * birthdate:01/02/1984 - 4.650000, 20
+ * birthdate:02/04/1985 - 4.500000, 4
+ * birthdate:01/07/1976 - 4.250000, 4
+ * birthdate:24/08/1980 - 3.187500, 16
+ * birthdate:04/01/1981 - 2.500000, 4
+ * birthdate:02/04/1982 - 4.400000, 5
+ * birthdate:04/05/1980 - 4.000000, 6
+ * birthdate:22/01/1984 - 3.666667, 3
+ * birthdate:10/02/1991 - 5.000000, 2
+ * birthdate:03/05/1990 - 4.444444, 9
+ * birthdate:08/10/1981 - 3.000000, 6
+ * birthdate:30/01/1991 - 4.000000, 2
+ * birthdate:25/12/1959 - 4.500000, 8
+ * birthdate:28/02/1975 - 4.166667, 6
+ * birthdate:07/04/1988 - 3.500000, 2
+ * birthdate:11/04/1989 - 3.400000, 5
+ * birthdate:23/06/1989 - 4.400000, 5
+ * birthdate:16/06/1992 - 4.312500, 16
+ * birthdate:10/11/1985 - 5.000000, 2
+ * birthdate:18/01/1989 - 4.166667, 6
+ * birthdate:10/03/1988 - 4.625000, 8
+ * birthdate:07/01/1986 - 3.125000, 8
+ * birthdate:04/04/1988 - 3.714286, 7
+ * birthdate:07/07/1990 - 4.076923, 13
+ * birthdate:07/10/1985 - 4.407407, 27
+ * birthdate:04/04/1984 - 3.000000, 8
+ * birthdate:02/05/1984 - 3.538462, 13
+ * birthdate:10/03/1971 - 4.000000, 2
+ * birthdate:04/04/1982 - 3.400000, 5
+ * birthdate:09/06/1985 - 3.600000, 25
+ * birthdate:08/03/1966 - 3.714286, 7
+ * birthdate:14/04/1986 - 3.666667, 3
+ * birthdate:01/01/1985 - 3.400000, 5
+ * birthdate:28/11/1992 - 3.900000, 10
+ * birthdate:05/04/1982 - 3.600000, 10
+ * birthdate:22/04/1975 - 3.250000, 8
+ * birthdate:21/11/1985 - 4.000000, 5
+ * birthdate:09/04/1989 - 3.666667, 3
+ * birthdate:04/06/1984 - 3.571429, 7
+ * birthdate:27/05/1977 - 3.166667, 6
+ * birthdate:17/08/1985 - 4.000000, 5
+ * birthdate:17/11/1987 - 4.625000, 8
+ * birthdate:27/11/1991 - 3.200000, 5
+ * birthdate:14/05/1989 - 4.000000, 11
+ * birthdate:20/06/1991 - 4.000000, 8
+ * birthdate:09/05/1990 - 3.285714, 7
+ * birthdate:21/05/1989 - 4.000000, 1
+ * birthdate:06/07/1990 - 3.461538, 13
+ * birthdate:29/08/1986 - 2.333333, 6
+ * birthdate:11/07/1984 - 3.909091, 11
+ * birthdate:20/04/1983 - 4.000000, 7
+ * birthdate:03/07/1981 - 3.000000, 3
+ * birthdate:12/11/1990 - 4.142857, 7
+ * birthdate:20/03/1993 - 3.000000, 6
+ * birthdate:03/11/1993 - 2.500000, 4
+ * birthdate:21/12/1986 - 3.333333, 6
+ * birthdate:06/05/1993 - 3.600000, 5
+ * birthdate:22/04/1993 - 3.571429, 7
+ * birthdate:16/09/1986 - 2.000000, 2
+ * birthdate:13/05/1984 - 4.500000, 20
+ * birthdate:23/05/1985 - 4.500000, 2
+ * birthdate:24/05/1975 - 3.000000, 5
+ * birthdate:10/05/1991 - 4.250000, 8
+ * birthdate:27/05/1981 - 4.000000, 9
+ * birthdate:13/08/1985 - 4.600000, 5
+ * birthdate:09/02/1980 - 3.600000, 5
+ * birthdate:21/10/1989 - 3.750000, 8
+ * birthdate:13/10/1991 - 4.000000, 1
+ * birthdate:11/09/1989 - 3.076923, 13
+ * birthdate:19/06/1984 - 4.500000, 8
+ * birthdate:19/06/1983 - 4.000000, 5
+ * birthdate:16/03/1983 - 3.636364, 11
+ * birthdate:25/07/1986 - 4.000000, 4
+ * birthdate:17/04/1973 - 4.600000, 5
+ * birthdate:12/03/1966 - 3.000000, 4
+ * birthdate:23/04/1987 - 3.666667, 3
+ * birthdate:27/01/1992 - 4.285714, 7
+ * birthdate:27/10/1992 - 4.500000, 2
+ * birthdate:27/03/1970 - 3.500000, 4
+ * birthdate:22/04/1986 - 4.800000, 5
+ * birthdate:14/04/1988 - 4.200000, 5
+ * birthdate:05/04/1995 - 3.142857, 7
+ * birthdate:27/02/1992 - 3.666667, 3
+ * birthdate:16/10/1992 - 5.000000, 2
+ * birthdate:19/02/1962 - 4.250000, 4
+ * birthdate:29/09/1970 - 5.000000, 1
+ * birthdate:30/11/1990 - 4.750000, 4
+ * birthdate:14/06/1992 - 3.857143, 7
+ * birthdate:12/09/1984 - 4.428571, 7
+ * birthdate:18/09/1984 - 4.125000, 8
+ * birthdate:05/08/1972 - 4.250000, 4
+ * birthdate:06/11/1989 - 3.875000, 8
+ * birthdate:31/08/1982 - 2.375000, 8
+ * birthdate:13/09/2004 - 4.500000, 2
+ * birthdate:18/09/1987 - 3.666667, 3
+ * birthdate:20/09/1983 - 4.750000, 8
+ * birthdate:15/05/1981 - 4.250000, 8
+ * birthdate:14/06/1981 - 4.000000, 4
+ * birthdate:11/01/1969 - 4.333333, 3
+ * birthdate:13/09/1993 - 4.666667, 3
+ * birthdate:03/04/1975 - 4.000000, 3
+ * birthdate:27/09/1986 - 5.000000, 1
+ * birthdate:27/09/1957 - 3.200000, 5
+ * birthdate:12/03/1984 - 3.400000, 5
+ * birthdate:18/07/1983 - 5.000000, 2
+ * birthdate:23/04/1989 - 3.381818, 55
+ * birthdate:03/12/1990 - 3.500000, 4
+ * birthdate:17/03/1970 - 1.666667, 3
+ * birthdate:18/05/1996 - 1.750000, 8
+ * birthdate:27/04/1994 - 2.000000, 8
+ * birthdate:01/05/1980 - 2.666667, 3
+ * birthdate:13/09/1994 - 3.000000, 2
+ * birthdate:26/07/1994 - 3.000000, 2
+ * birthdate:17/08/1974 - 4.000000, 1
+ * birthdate:06/12/1975 - 5.000000, 1
+ * birthdate:06/11/1991 - 3.400000, 5
+ * birthdate:09/12/1964 - 4.000000, 1
+ * birthdate:24/10/1985 - 4.666667, 3
+ * birthdate:13/06/1985 - 4.500000, 2
+ * birthdate:23/01/1990 - 4.250000, 4
+ * birthdate:03/12/1987 - 3.700000, 10
+ * birthdate:17/09/1993 - 4.500000, 4
+ * birthdate:25/10/1992 - 3.500000, 4
+ * birthdate:28/12/1967 - 3.000000, 1
+ * birthdate:30/03/1960 - 4.200000, 5
+ * birthdate:31/10/1973 - 2.750000, 8
+ * birthdate:04/05/1998 - 3.125000, 8
+ * birthdate:11/06/1979 - 3.400000, 5
+ * birthdate:03/01/1963 - 2.500000, 8
+ * birthdate:14/04/1983 - 3.500000, 8
+ * birthdate:15/05/1985 - 3.000000, 3
+ * birthdate:02/04/1988 - 4.600000, 5
+ * birthdate:23/01/1986 - 3.600000, 5
+ * birthdate:09/01/1963 - 2.625000, 8
+ * birthdate:04/05/1957 - 4.571429, 7
+ * birthdate:09/06/1976 - 3.666667, 3
+ * birthdate:10/10/1997 - 4.750000, 4
+ * birthdate:28/12/1989 - 4.000000, 1
+ * birthdate:02/10/1989 - 3.375000, 8
+ * birthdate:15/11/1973 - 4.000000, 1
+ * birthdate:20/10/1990 - 4.750000, 4
+ * birthdate:12/12/1959 - 4.166667, 6
+ * birthdate:12/12/1969 - 4.388889, 18
+ * birthdate:02/07/1986 - 4.250000, 4
+ * birthdate:10/05/1980 - 3.000000, 4
+ * birthdate:29/06/1968 - 2.250000, 8
+ * birthdate:09/06/1989 - 3.142857, 7
+ * birthdate:20/03/1969 - 4.250000, 4
+ * birthdate:13/01/1986 - 2.666667, 9
+ * birthdate:08/01/1988 - 3.800000, 5
+ * birthdate:08/01/1970 - 4.166667, 6
+ * birthdate:09/01/1991 - 3.000000, 7
+ * birthdate:09/01/1962 - 3.833333, 6
+ * birthdate:23/07/1995 - 4.000000, 1
+ * birthdate:17/02/1987 - 3.181818, 11
+ * birthdate:15/07/1986 - 4.000000, 1
+ * birthdate:10/02/1941 - 4.200000, 5
+ * birthdate:10/02/1954 - 4.294118, 17
+ * birthdate:26/07/1946 - 4.000000, 8
+ * birthdate:15/02/1946 - 3.333333, 3
+ * birthdate:13/02/1940 - 4.571429, 7
+ * birthdate:07/12/1947 - 3.500000, 2
+ * birthdate:20/04/1947 - 5.000000, 2
+ * birthdate:13/02/1943 - 4.000000, 7
+ * birthdate:20/04/1965 - 2.000000, 9
+ * birthdate:24/03/1963 - 3.000000, 1
+ * birthdate:11/04/1985 - 2.250000, 16
+ * birthdate:03/04/2005 - 4.000000, 6
+ * gender:null - 3.188119, 1010
+ * gender:m - 3.689524, 1050
+ * gender:f - 3.717514, 354
+ * opennesstoexperience:null - 2.991416, 699
+ * opennesstoexperience:6 - 3.850088, 567
+ * opennesstoexperience:5 - 3.589015, 528
+ * opennesstoexperience:4 - 3.568627, 357
+ * opennesstoexperience:3 - 3.147059, 34
+ * opennesstoexperience:7 - 3.754386, 228
+ * opennesstoexperience:2 - 4.000000, 1
+ * conscientiousness:null - 2.991416, 699
+ * conscientiousness:5 - 3.627168, 346
+ * conscientiousness:4 - 3.641026, 429
+ * conscientiousness:6 - 3.728307, 703
+ * conscientiousness:3 - 3.666667, 60
+ * conscientiousness:7 - 3.726190, 168
+ * conscientiousness:2 - 3.875000, 8
+ * conscientiousness:1 - 4.000000, 1
+ * extraversion:null - 2.991416, 699
+ * extraversion:4 - 3.757143, 700
+ * extraversion:1 - 4.035714, 28
+ * extraversion:3 - 3.481675, 191
+ * extraversion:5 - 3.792079, 303
+ * extraversion:6 - 3.675277, 271
+ * extraversion:2 - 3.516393, 122
+ * extraversion:7 - 3.370000, 100
+ * agreeableness:null - 2.991416, 699
+ * agreeableness:4 - 3.751506, 664
+ * agreeableness:5 - 3.495215, 418
+ * agreeableness:3 - 3.525253, 99
+ * agreeableness:6 - 3.756757, 444
+ * agreeableness:2 - 4.000000, 25
+ * agreeableness:7 - 3.846154, 65
+ * emotionalstability:null - 2.991416, 699
+ * emotionalstability:5 - 3.676230, 488
+ * emotionalstability:6 - 3.600000, 535
+ * emotionalstability:4 - 3.697128, 383
+ * emotionalstability:7 - 3.941558, 154
+ * emotionalstability:2 - 3.826087, 23
+ * emotionalstability:3 - 3.696970, 132
+ * distance:null - 3.412424, 1964
+ * distance:1 - 3.700000, 140
+ * distance:2 - 3.838710, 310
+ * timeavailable:null - 3.408264, 2033
+ * timeavailable:1 - 3.780269, 223
+ * timeavailable:2 - 4.166667, 84
+ * timeavailable:3 - 3.891892, 74
+ * temperature:5 - 3.986486, 74
+ * temperature:null - 3.406327, 2023
+ * temperature:2 - 3.739130, 46
+ * temperature:3 - 3.857868, 197
+ * temperature:4 - 3.955882, 68
+ * temperature:1 - 3.500000, 4
+ * temperature:6 - 4.500000, 2
+ * crowdedness:null - 3.412536, 2058
+ * crowdedness:1 - 3.896739, 184
+ * crowdedness:2 - 4.020408, 147
+ * crowdedness:3 - 3.160000, 25
+ * knowledgeofsurroundings:null - 3.422330, 2060
+ * knowledgeofsurroundings:1 - 3.793651, 63
+ * knowledgeofsurroundings:2 - 3.834951, 103
+ * knowledgeofsurroundings:3 - 3.861702, 188
+ * season:null - 3.410663, 2082
+ * season:4 - 3.927711, 83
+ * season:1 - 3.982456, 57
+ * season:3 - 3.790323, 62
+ * season:2 - 4.007692, 130
+ * budget:null - 3.453402, 2146
+ * budget:3 - 3.205128, 39
+ * budget:1 - 3.669643, 112
+ * budget:2 - 3.957265, 117
+ * daytime:null - 3.450678, 2139
+ * daytime:1 - 3.942857, 70
+ * daytime:3 - 3.790476, 105
+ * daytime:5 - 3.550000, 100
+ * weather:null - 3.449520, 2189
+ * weather:6 - 3.642857, 14
+ * weather:2 - 4.070707, 99
+ * weather:4 - 3.342105, 38
+ * weather:1 - 3.933333, 45
+ * weather:3 - 3.461538, 26
+ * weather:5 - 3.666667, 3
+ * companion:null - 3.452080, 2212
+ * companion:2 - 3.891473, 129
+ * companion:5 - 3.545455, 11
+ * companion:4 - 3.739130, 23
+ * companion:1 - 3.100000, 10
+ * companion:3 - 4.000000, 29
+ * mood:null - 3.473238, 2242
+ * mood:4 - 3.160000, 25
+ * mood:3 - 3.677966, 59
+ * mood:1 - 4.000000, 76
+ * mood:2 - 1.916667, 12
+ * weekday:null - 3.470459, 2268
+ * weekday:2 - 3.848485, 66
+ * weekday:1 - 3.562500, 80
+ * travelgoal:null - 3.483773, 2311
+ * travelgoal:6 - 3.933333, 15
+ * travelgoal:5 - 3.800000, 10
+ * travelgoal:1 - 3.250000, 16
+ * travelgoal:4 - 2.666667, 3
+ * travelgoal:9 - 3.250000, 16
+ * travelgoal:3 - 3.375000, 8
+ * travelgoal:7 - 3.500000, 8
+ * travelgoal:2 - 3.166667, 6
+ * travelgoal:8 - 3.619048, 21
+ * transport:null - 3.486938, 2335
+ * transport:2 - 3.133333, 15
+ * transport:3 - 3.260870, 23
+ * transport:1 - 3.291667, 24
+ * transport:4 - 3.941176, 17
+ * category1:1 - 3.197889, 1137
+ * category1:2 - 3.175000, 80
+ * category1:3 - 4.382353, 68
+ * category1:4 - 3.555556, 729
+ * category1:5 - 4.437500, 32
+ * category1:6 - 3.750000, 4
+ * category1:7 - 3.750000, 20
+ * category1:8 - 4.086705, 173
+ * category1:9 - 4.193548, 31
+ * category1:10 - 4.571429, 21
+ * category1:11 - 4.000000, 18
+ * category1:12 - 3.000000, 1
+ * category1:14 - 3.687500, 32
+ * category1:15 - 5.000000, 7
+ * category1:16 - 4.000000, 5
+ * category1:17 - 3.888889, 9
+ * category1:18 - 4.250000, 12
+ * category1:19 - 3.000000, 3
+ * category1:20 - 3.000000, 7
+ * category1:21 - 4.571429, 7
+ * category1:22 - 5.000000, 1
+ * category1:23 - 2.500000, 2
+ * category1:24 - 4.000000, 2
+ * category1:27 - 4.000000, 8
+ * category1:28 - 4.000000, 1
+ * category1:25 - 4.666667, 3
+ * category1:29 - 1.000000, 1
+ * category2:null - 3.483188, 2409
+ * category2:13 - 3.500000, 2
+ * category2:25 - 4.000000, 2
+ * category2:26 - 4.000000, 1
+ * category3:null - 3.483416, 2412
+ * category3:26 - 4.000000, 2
+ * 
+ * Statistics of UI Matrix:
+ * User amount: 325
+ * Item amount: 249
+ * Rate amount: 1832.0
+ * Data density: 2.2638%
+ * Data density (unique pairs): 5.5131%
+ * Average value of all ratings: 3.642510
+ * Standard deviation of all ratings: 1.220574
+ * Mode of all rating values: 4.000000
+ * Median of all rating values: 4.000000
+ * Distribution of rate counts per UI pair: mean = 1.3176855895196506, median = 1.0, sd = 1.7400852929987456
+ * 
+ * Statistics of UC Matrix:
+ * User amount: 325
+ * Condition amount: 317
+ * Rate amount: 10849.0
+ * Data density: 10.5305%
+ * Data density (unique pairs): 72.3477%
+ * Average value of all ratings: 3.707822
+ * Standard deviation of all ratings: 0.906340
+ * Mode of all rating values: 4.000000
+ * Median of all rating values: 4.000000
+ * Distribution of rate counts per UC pair: mean = 5.340215688081851, median = 3.0, sd = 9.530741427569874
+ * 
+ * Statistics of IC Matrix:
+ * Item amount: 249
+ * Condition amount: 317
+ * Rate amount: 9385.0
+ * Data density: 11.8898%
+ * Data density (unique pairs): 33.9904%
+ * Average value of all ratings: 3.690903
+ * Standard deviation of all ratings: 1.124956
+ * Mode of all rating values: 4.000000
+ * Median of all rating values: 4.000000
+ * Distribution of rate counts per IC pair: mean = 6.1732551944592435, median = 1.0, sd = 22.43372120972143
+ * 
+ * Paired t-test on user's average rating between UI and UC matrix: absolute mean diff = 0.01429041045025059, p-value = 2.5803630251439787E-4
+ * Paired t-test on item's average rating between UI and IC matrix: absolute mean diff = 0.0030195487016491107, p-value = 0.20602135325622095
+ *
+ ******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+With Setup: given-ratio -r 0.8 --early-stop RMSE
+27 users have been splitted.
+User Splitting is done... Algorithm 'svd++' will be applied to the transformed data set.
+Density of transformed 2D rating matrix ============================== 0.016885724717050018
+Final Results by UserSplitting-SVD++, Pre5: 0.022735,Pre10: 0.019078, Rec5: 0.111548, Rec10: 0.187093, AUC5: 0.555969, AUC10: 0.592166, MAP5: 0.057562, MAP10: 0.067762,NDCG5: 0.071334, NDCG10: 0.095987,MRR5: 0.058919, MRR10: 0.069314, numFactors: 300, numIter: 195, lrate: 5.0E-5, maxlrate: -1.0, regB: 1.0E-4, regU: 1.0E-4, regI: 1.0E-4, regC: 0.001, isBoldDriver: true, Time: '00:05','00:00'
+

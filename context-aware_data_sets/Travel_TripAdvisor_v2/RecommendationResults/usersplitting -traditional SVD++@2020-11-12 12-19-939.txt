@@ -1,0 +1,340 @@
+WorkingPath: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Travel_TripAdvisor_v2\RecommendationResults\
+Your original rating data path: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Travel_TripAdvisor_v2\Data_TripAdvisor_v2.csv
+Current working path: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Travel_TripAdvisor_v2\RecommendationResults\
+User, Item, Rating, userstate:ak, userstate:al, userstate:ar, userstate:argentina, userstate:australia, userstate:austria, userstate:az, userstate:brazil, userstate:bulgaria, userstate:ca, userstate:canada, userstate:chile, userstate:china, userstate:co, userstate:ct, userstate:dc, userstate:de, userstate:denmark, userstate:fl, userstate:france, userstate:ga, userstate:germany, userstate:hi, userstate:hinterland, userstate:ia, userstate:id, userstate:il, userstate:in, userstate:india, userstate:ireland, userstate:israel, userstate:italy, userstate:japan, userstate:ks, userstate:ky, userstate:la, userstate:ma, userstate:md, userstate:me, userstate:mexico, userstate:mi, userstate:mn, userstate:mo, userstate:ms, userstate:mt, userstate:nb, userstate:nc, userstate:netherlands, userstate:newzealand, userstate:nh, userstate:nj, userstate:nm, userstate:norway, userstate:nv, userstate:nw, userstate:ny, userstate:oh, userstate:ok, userstate:or, userstate:pa, userstate:pr, userstate:ri, userstate:sc, userstate:sd, userstate:singapore, userstate:spain, userstate:sweden, userstate:switzerland, userstate:tn, userstate:tx, userstate:uk, userstate:ut, userstate:va, userstate:venezuela, userstate:vt, userstate:wa, userstate:wi, userstate:wv, userstate:wy, usertimezone:ak, usertimezone:central, usertimezone:argentina, usertimezone:australia, usertimezone:austria, usertimezone:mountain, usertimezone:brazil, usertimezone:bulgaria, usertimezone:pacific, usertimezone:canada, usertimezone:chile, usertimezone:china, usertimezone:eastern, usertimezone:denmark, usertimezone:france, usertimezone:germany, usertimezone:hi, usertimezone:hinterland, usertimezone:india, usertimezone:ireland, usertimezone:israel, usertimezone:italy, usertimezone:japan, usertimezone:mexico, usertimezone:netherlands, usertimezone:newzealand, usertimezone:norway, usertimezone:nw, usertimezone:pr, usertimezone:singapore, usertimezone:spain, usertimezone:sweden, usertimezone:switzerland, usertimezone:uk, usertimezone:venezuela, itemcity:greensboro, itemcity:phoenix, itemcity:anaheim, itemcity:seattle, itemcity:miami, itemcity:elpaso, itemcity:longbeach, itemcity:madison, itemcity:lasvegas, itemcity:palm springs, itemcity:fort lauderdale, itemcity:tampa, itemcity:louisville, itemcity:nashville, itemcity:philadelphia, itemcity:baltimore, itemcity:atlanta, itemcity:columbus, itemcity:newyork, itemcity:aurora, itemcity:memphis, itemcity:washingtondc, itemcity:cleveland, itemcity:lexington, itemcity:orlando, itemcity:denver, itemcity:sanfrancisco, itemcity:dallas, itemcity:houston, itemcity:wichita, itemcity:knoxville, itemcity:sacramento, itemcity:overland park, itemcity:detroit, itemcity:gainesville, itemcity:portland, itemcity:boston, itemcity:losangeles, itemcity:glendale, itemcity:charlotte, itemcity:sandiego, itemcity:fortworth, itemcity:minneapolis, itemcity:tempe, itemcity:newark, itemcity:austin, itemcity:albuquerque, itemcity:omaha, itemcity:salt lake city, itemcity:scottsdale, itemcity:mesa, itemcity:saint petersburg, itemcity:bakersfield, itemcity:riverside, itemcity:henderson, itemcity:chandler, itemcity:jersey city, itemcity:sanjose, itemcity:buffalo, itemcity:oklahomacity, itemcity:cincinnati, itemcity:chula vista, itemcity:centennial, itemcity:des moines, itemcity:santa ana, itemcity:hialeah, itemcity:plano, itemcity:oakland, itemcity:sunnyvale, itemcity:milwaukee, itemcity:tacoma, itemcity:berkeley, itemcity:pittsburgh, itemcity:elizabeth, itemcity:eugene, itemcity:indianapolis, itemcity:fresno, itemcity:sanantonio, itemcity:lubbock, itemcity:stockton, itemcity:saint paul, itemcity:laredo, itemcity:corpus christi, itemcity:san diego, itemcity:fort wayne, itemcity:rochester, itemcity:lincoln, itemcity:arlington, itemcity:toledo, itemcity:tulsa, itemcity:kansas, itemcity:springfield, itemcity:tallahassee, itemcity:dayton, itemcity:raleigh, itemcity:frisco, itemcity:chapel hill, itemcity:jacksonville, itemcity:salem, itemcity:naperville, itemcity:rockford, itemcity:san antonio, itemcity:virginiabeach, itemcity:worcester, itemcity:downey, itemcity:garland, itemcity:syracuse, itemstate:nc, itemstate:az, itemstate:ca, itemstate:wa, itemstate:mi, itemstate:tx, itemstate:wi, itemstate:nv, itemstate:fl, itemstate:ky, itemstate:tn, itemstate:pa, itemstate:md, itemstate:ga, itemstate:oh, itemstate:ny, itemstate:il, itemstate:dc, itemstate:co, itemstate:ks, itemstate:or, itemstate:ma, itemstate:mn, itemstate:nj, itemstate:nm, itemstate:nb, itemstate:ut, itemstate:ok, itemstate:ia, itemstate:in, itemstate:va, itemtimezone:eastern, itemtimezone:mountain, itemtimezone:pacific, itemtimezone:central, triptype:solo, triptype:family, triptype:couples, triptype:business, triptype:friends
+Data transformaton completed (from Compact to Binary format). See new rating file: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Travel_TripAdvisor_v2\RecommendationResults\train.csv
+Dataset: ..._v2\RecommendationResults\train.csv
+DataPath: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Travel_TripAdvisor_v2\RecommendationResults\train.csv
+Rating data set has been successfully loaded.
+
+/******************************************************************************************************************************************
+ *
+ * Dataset: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\Travel_TripAdvisor_v2\RecommendationResults\train.csv
+ * 
+ * Statistics of U-I-C Matrix:
+ * User amount: 2371
+ * Item amount: 2269
+ * Rate amount: 14063
+ * Context dimensions: 6 (userstate, usertimezone, itemcity, itemstate, itemtimezone, triptype)
+ * Context conditions: 261 (userstate: 79, usertimezone: 35, itemcity: 107, itemstate: 31, itemtimezone: 4, triptype: 5)
+ * Context situations: 5968
+ * Data density: 0.0000%
+ * Scale distribution: [4.0 x 5219, 2.0 x 663, 1.0 x 236, 5.0 x 5949, 3.0 x 1996]
+ * Average value of all ratings: 4.139504
+ * Standard deviation of all ratings: 0.940518
+ * Mode of all rating values: 5.000000
+ * Median of all rating values: 4.000000
+ * 
+ * Distribution of rate counts per user: mean = 5.931252636018558, median = 5.0, sd = 2.461324131917241
+ * Distribution of rate counts per item: mean = 6.197884530630233, median = 3.0, sd = 7.862753683075402
+ * Distribution of rate counts per context condition: mean = 323.28735632183907, median = 76.0, sd = 765.4517646569134
+ * 
+ * Average rating in each context condition: (Average, Counts)
+ * userstate:ak - 4.275862, 29
+ * userstate:al - 4.196970, 66
+ * userstate:ar - 4.250000, 72
+ * userstate:argentina - 4.200000, 10
+ * userstate:australia - 4.124138, 145
+ * userstate:austria - 3.777778, 9
+ * userstate:az - 4.115385, 338
+ * userstate:brazil - 4.136364, 22
+ * userstate:bulgaria - 3.958333, 24
+ * userstate:ca - 4.112668, 1855
+ * userstate:canada - 4.133772, 456
+ * userstate:chile - 4.692308, 13
+ * userstate:china - 4.321429, 28
+ * userstate:co - 4.103175, 378
+ * userstate:ct - 4.224490, 147
+ * userstate:dc - 4.214092, 369
+ * userstate:de - 4.200000, 10
+ * userstate:denmark - 4.384615, 13
+ * userstate:fl - 4.076923, 702
+ * userstate:france - 4.106383, 47
+ * userstate:ga - 4.180851, 376
+ * userstate:germany - 4.007299, 137
+ * userstate:hi - 4.186047, 43
+ * userstate:hinterland - 3.800000, 5
+ * userstate:ia - 4.200000, 65
+ * userstate:id - 3.868421, 38
+ * userstate:il - 4.154514, 576
+ * userstate:in - 4.185714, 140
+ * userstate:india - 4.500000, 8
+ * userstate:ireland - 4.266667, 15
+ * userstate:israel - 4.250000, 20
+ * userstate:italy - 3.791045, 67
+ * userstate:japan - 4.200000, 5
+ * userstate:ks - 4.133333, 165
+ * userstate:ky - 4.212121, 99
+ * userstate:la - 4.190476, 63
+ * userstate:ma - 4.226994, 326
+ * userstate:md - 4.149378, 241
+ * userstate:me - 4.044444, 45
+ * userstate:mexico - 4.304348, 23
+ * userstate:mi - 3.956000, 250
+ * userstate:mn - 4.078431, 204
+ * userstate:mo - 4.020270, 148
+ * userstate:ms - 4.062500, 32
+ * userstate:mt - 4.100000, 30
+ * userstate:nb - 4.100000, 30
+ * userstate:nc - 4.096346, 301
+ * userstate:netherlands - 4.241379, 58
+ * userstate:newzealand - 3.733333, 15
+ * userstate:nh - 4.000000, 40
+ * userstate:nj - 4.168116, 345
+ * userstate:nm - 4.303030, 33
+ * userstate:norway - 4.300000, 30
+ * userstate:nv - 4.226950, 141
+ * userstate:nw - 4.285714, 77
+ * userstate:ny - 4.136646, 805
+ * userstate:oh - 4.101911, 471
+ * userstate:ok - 4.271429, 70
+ * userstate:or - 4.191964, 224
+ * userstate:pa - 4.167832, 429
+ * userstate:pr - 4.200000, 10
+ * userstate:ri - 4.100000, 10
+ * userstate:sc - 4.223301, 103
+ * userstate:sd - 4.266667, 15
+ * userstate:singapore - 4.227273, 22
+ * userstate:spain - 4.800000, 5
+ * userstate:sweden - 4.000000, 5
+ * userstate:switzerland - 4.136364, 66
+ * userstate:tn - 4.123810, 210
+ * userstate:tx - 4.183513, 1019
+ * userstate:uk - 4.115909, 440
+ * userstate:ut - 4.161765, 68
+ * userstate:va - 4.086093, 453
+ * userstate:venezuela - 4.200000, 5
+ * userstate:vt - 4.800000, 5
+ * userstate:wa - 4.091811, 403
+ * userstate:wi - 4.205426, 258
+ * userstate:wv - 4.086957, 23
+ * userstate:wy - 4.300000, 20
+ * usertimezone:ak - 4.275862, 29
+ * usertimezone:central - 4.162031, 3092
+ * usertimezone:argentina - 4.200000, 10
+ * usertimezone:australia - 4.124138, 145
+ * usertimezone:austria - 3.777778, 9
+ * usertimezone:mountain - 4.113812, 905
+ * usertimezone:brazil - 4.136364, 22
+ * usertimezone:bulgaria - 3.958333, 24
+ * usertimezone:pacific - 4.122379, 2623
+ * usertimezone:canada - 4.133772, 456
+ * usertimezone:chile - 4.692308, 13
+ * usertimezone:china - 4.321429, 28
+ * usertimezone:eastern - 4.133965, 5591
+ * usertimezone:denmark - 4.384615, 13
+ * usertimezone:france - 4.106383, 47
+ * usertimezone:germany - 4.007299, 137
+ * usertimezone:hi - 4.186047, 43
+ * usertimezone:hinterland - 3.800000, 5
+ * usertimezone:india - 4.500000, 8
+ * usertimezone:ireland - 4.266667, 15
+ * usertimezone:israel - 4.250000, 20
+ * usertimezone:italy - 3.791045, 67
+ * usertimezone:japan - 4.200000, 5
+ * usertimezone:mexico - 4.304348, 23
+ * usertimezone:netherlands - 4.241379, 58
+ * usertimezone:newzealand - 3.733333, 15
+ * usertimezone:norway - 4.300000, 30
+ * usertimezone:nw - 4.285714, 77
+ * usertimezone:pr - 4.200000, 10
+ * usertimezone:singapore - 4.227273, 22
+ * usertimezone:spain - 4.800000, 5
+ * usertimezone:sweden - 4.000000, 5
+ * usertimezone:switzerland - 4.136364, 66
+ * usertimezone:uk - 4.115909, 440
+ * usertimezone:venezuela - 4.200000, 5
+ * itemcity:greensboro - 4.235294, 68
+ * itemcity:phoenix - 4.209677, 186
+ * itemcity:anaheim - 4.169184, 331
+ * itemcity:seattle - 4.138824, 425
+ * itemcity:miami - 4.132231, 242
+ * itemcity:elpaso - 4.308824, 68
+ * itemcity:longbeach - 4.173554, 121
+ * itemcity:madison - 4.126214, 103
+ * itemcity:lasvegas - 4.131868, 546
+ * itemcity:palm springs - 4.007092, 141
+ * itemcity:fort lauderdale - 4.255814, 215
+ * itemcity:tampa - 4.200000, 105
+ * itemcity:louisville - 4.136364, 110
+ * itemcity:nashville - 4.106464, 263
+ * itemcity:philadelphia - 4.156823, 491
+ * itemcity:baltimore - 4.041199, 267
+ * itemcity:atlanta - 4.079585, 289
+ * itemcity:columbus - 4.041667, 168
+ * itemcity:newyork - 4.107309, 643
+ * itemcity:aurora - 4.084337, 83
+ * itemcity:memphis - 4.306748, 163
+ * itemcity:washingtondc - 4.043825, 502
+ * itemcity:cleveland - 4.056497, 177
+ * itemcity:lexington - 4.323944, 71
+ * itemcity:orlando - 4.104743, 506
+ * itemcity:denver - 4.128947, 380
+ * itemcity:sanfrancisco - 4.151030, 437
+ * itemcity:dallas - 4.169611, 283
+ * itemcity:houston - 4.035714, 140
+ * itemcity:wichita - 4.205128, 39
+ * itemcity:knoxville - 4.032258, 62
+ * itemcity:sacramento - 4.240310, 129
+ * itemcity:overland park - 4.200000, 55
+ * itemcity:detroit - 4.145570, 158
+ * itemcity:gainesville - 4.089286, 56
+ * itemcity:portland - 4.264624, 359
+ * itemcity:boston - 4.216630, 457
+ * itemcity:losangeles - 4.129676, 401
+ * itemcity:glendale - 4.083333, 24
+ * itemcity:charlotte - 4.210526, 133
+ * itemcity:sandiego - 4.155313, 367
+ * itemcity:fortworth - 4.283019, 106
+ * itemcity:minneapolis - 4.122449, 196
+ * itemcity:tempe - 4.166667, 108
+ * itemcity:newark - 3.937500, 64
+ * itemcity:austin - 4.254545, 165
+ * itemcity:albuquerque - 4.148148, 162
+ * itemcity:omaha - 4.155340, 103
+ * itemcity:salt lake city - 3.968504, 127
+ * itemcity:scottsdale - 4.113703, 343
+ * itemcity:mesa - 4.200000, 35
+ * itemcity:saint petersburg - 4.152778, 72
+ * itemcity:bakersfield - 4.055556, 54
+ * itemcity:riverside - 4.263158, 19
+ * itemcity:henderson - 4.091837, 98
+ * itemcity:chandler - 4.076923, 65
+ * itemcity:jersey city - 4.172414, 58
+ * itemcity:sanjose - 4.303371, 89
+ * itemcity:buffalo - 4.120000, 75
+ * itemcity:oklahomacity - 3.860465, 86
+ * itemcity:cincinnati - 4.145631, 103
+ * itemcity:chula vista - 3.000000, 3
+ * itemcity:centennial - 4.120690, 58
+ * itemcity:des moines - 4.333333, 66
+ * itemcity:santa ana - 4.415094, 53
+ * itemcity:hialeah - 4.088608, 79
+ * itemcity:plano - 4.327273, 55
+ * itemcity:oakland - 4.037037, 54
+ * itemcity:sunnyvale - 4.000000, 31
+ * itemcity:milwaukee - 4.136986, 146
+ * itemcity:tacoma - 3.805556, 36
+ * itemcity:berkeley - 4.083333, 36
+ * itemcity:pittsburgh - 4.096774, 155
+ * itemcity:elizabeth - 3.974359, 39
+ * itemcity:eugene - 4.225806, 62
+ * itemcity:indianapolis - 4.104000, 125
+ * itemcity:fresno - 4.239130, 46
+ * itemcity:sanantonio - 4.090909, 209
+ * itemcity:lubbock - 4.260870, 46
+ * itemcity:stockton - 4.400000, 15
+ * itemcity:saint paul - 4.187500, 48
+ * itemcity:laredo - 4.571429, 14
+ * itemcity:corpus christi - 4.238095, 21
+ * itemcity:san diego - 4.166667, 12
+ * itemcity:fort wayne - 4.097561, 41
+ * itemcity:rochester - 4.093750, 64
+ * itemcity:lincoln - 4.311475, 61
+ * itemcity:arlington - 4.145833, 48
+ * itemcity:toledo - 4.277778, 18
+ * itemcity:tulsa - 4.240000, 50
+ * itemcity:kansas - 4.125000, 24
+ * itemcity:springfield - 3.928571, 14
+ * itemcity:tallahassee - 3.986486, 74
+ * itemcity:dayton - 3.886364, 44
+ * itemcity:raleigh - 4.039474, 76
+ * itemcity:frisco - 4.333333, 6
+ * itemcity:chapel hill - 3.928571, 28
+ * itemcity:jacksonville - 3.917808, 73
+ * itemcity:salem - 3.736842, 19
+ * itemcity:naperville - 4.400000, 5
+ * itemcity:rockford - 4.062500, 16
+ * itemcity:san antonio - 4.416667, 12
+ * itemcity:virginiabeach - 4.115942, 69
+ * itemcity:worcester - 4.125000, 8
+ * itemcity:downey - 4.166667, 6
+ * itemcity:garland - 4.000000, 2
+ * itemcity:syracuse - 4.000000, 4
+ * itemstate:nc - 4.147541, 305
+ * itemstate:az - 4.144547, 761
+ * itemstate:ca - 4.154797, 2345
+ * itemstate:wa - 4.112798, 461
+ * itemstate:mi - 4.137500, 400
+ * itemstate:tx - 4.188195, 1169
+ * itemstate:wi - 4.132530, 249
+ * itemstate:nv - 4.125776, 644
+ * itemstate:fl - 4.122881, 1180
+ * itemstate:ky - 4.209945, 181
+ * itemstate:tn - 4.163934, 488
+ * itemstate:pa - 4.142415, 646
+ * itemstate:md - 4.041199, 267
+ * itemstate:ga - 4.084142, 309
+ * itemstate:oh - 4.059184, 490
+ * itemstate:ny - 4.106870, 786
+ * itemstate:il - 4.152174, 46
+ * itemstate:dc - 4.043825, 502
+ * itemstate:co - 4.121514, 502
+ * itemstate:ks - 4.186441, 118
+ * itemstate:or - 4.236364, 440
+ * itemstate:ma - 4.206681, 479
+ * itemstate:mn - 4.135246, 244
+ * itemstate:nj - 4.031056, 161
+ * itemstate:nm - 4.148148, 162
+ * itemstate:nb - 4.213415, 164
+ * itemstate:ut - 3.968504, 127
+ * itemstate:ok - 4.000000, 136
+ * itemstate:ia - 4.333333, 66
+ * itemstate:in - 4.102410, 166
+ * itemstate:va - 4.115942, 69
+ * itemtimezone:eastern - 4.110764, 5760
+ * itemtimezone:mountain - 4.123067, 1552
+ * itemtimezone:pacific - 4.154242, 3890
+ * itemtimezone:central - 4.171269, 2861
+ * triptype:solo - 4.130522, 2988
+ * triptype:family - 4.148199, 2888
+ * triptype:couples - 4.147065, 4651
+ * triptype:business - 4.123830, 2778
+ * triptype:friends - 4.096306, 758
+ * 
+ * Statistics of UI Matrix:
+ * User amount: 2371
+ * Item amount: 2269
+ * Rate amount: 13697.0
+ * Data density: 0.2546%
+ * Data density (unique pairs): 2.4823%
+ * Average value of all ratings: 4.140069
+ * Standard deviation of all ratings: 0.932237
+ * Mode of all rating values: 5.000000
+ * Median of all rating values: 4.000000
+ * Distribution of rate counts per UI pair: mean = 1.0267211798203986, median = 1.0, sd = 0.17432062313864138
+ * 
+ * Statistics of UC Matrix:
+ * User amount: 2371
+ * Condition amount: 261
+ * Rate amount: 35757.0
+ * Data density: 5.7782%
+ * Data density (unique pairs): 46.6818%
+ * Average value of all ratings: 4.137075
+ * Standard deviation of all ratings: 0.780420
+ * Mode of all rating values: 4.000000
+ * Median of all rating values: 4.000000
+ * Distribution of rate counts per UC pair: mean = 2.3597617249769276, median = 1.0, sd = 2.1192595774037297
+ * 
+ * Statistics of IC Matrix:
+ * Item amount: 2269
+ * Condition amount: 261
+ * Rate amount: 28209.0
+ * Data density: 4.7634%
+ * Data density (unique pairs): 44.8757%
+ * Average value of all ratings: 4.138391
+ * Standard deviation of all ratings: 0.782711
+ * Mode of all rating values: 4.000000
+ * Median of all rating values: 4.000000
+ * Distribution of rate counts per IC pair: mean = 2.9911730298840795, median = 1.0, sd = 4.694143352869509
+ * 
+ * Paired t-test on user's average rating between UI and UC matrix: absolute mean diff = 0.002739678183834471, p-value = 0.16717129476159598
+ * Paired t-test on item's average rating between UI and IC matrix: absolute mean diff = 1.588990874026308E-4, p-value = 0.8986768464232728
+ *
+ ******************************************************************************************************************************************/
+With Setup: given-ratio -r 0.8 --early-stop RMSE
+84 users have been splitted.
+User Splitting is done... Algorithm 'svd++' will be applied to the transformed data set.
+Density of transformed 2D rating matrix ============================== 0.00197023729915024
+Final Results by UserSplitting-SVD++, Pre5: 0.000106,Pre10: 0.000488, Rec5: 0.000531, Rec10: 0.004883, AUC5: 0.500265, AUC10: 0.502426, MAP5: 0.000531, MAP10: 0.001064,NDCG5: 0.000531, NDCG10: 0.001891,MRR5: 0.000531, MRR10: 0.001064, numFactors: 300, numIter: 195, lrate: 3.0E-6, maxlrate: -1.0, regB: 1.0E-4, regU: 1.0E-4, regI: 1.0E-4, regC: 0.001, isBoldDriver: true, Time: '00:00','00:15'
+

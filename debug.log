@@ -1,152 +1,196 @@
-[INFO ] 2020-10-18 03:18:34,230 -- WorkingPath: C:\Users\Pgrm9\Downloads\CARSKit-master\context-aware_data_sets\Movie_DePaulMovie\RecommendationResults\
-[INFO ] 2020-10-18 03:18:34,240 -- Your original rating data path: C:\Users\Pgrm9\Downloads\CARSKit-master\context-aware_data_sets\Movie_DePaulMovie\ratings.csv
-[INFO ] 2020-10-18 03:18:34,241 -- Current working path: C:\Users\Pgrm9\Downloads\CARSKit-master\context-aware_data_sets\Movie_DePaulMovie\RecommendationResults\
-[INFO ] 2020-10-18 03:18:34,286 -- Dataset: ...vie\RecommendationResults\train.csv
-[INFO ] 2020-10-18 03:18:34,289 -- DataPath: C:\Users\Pgrm9\Downloads\CARSKit-master\context-aware_data_sets\Movie_DePaulMovie\RecommendationResults\train.csv
-[INFO ] 2020-10-18 03:18:34,506 -- Rating data set has been successfully loaded.
-[INFO ] 2020-10-18 03:18:34,581 -- 
-/*******************************************************************************************************************************************
+[INFO ] 2020-11-21 09:30:56,531 -- WorkingPath: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\MochilerosRD\RecommendationResults\
+[INFO ] 2020-11-21 09:30:56,540 -- Your original rating data path: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\MochilerosRD\mochileros_rd_ratings.csv
+[INFO ] 2020-11-21 09:30:56,540 -- Current working path: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\MochilerosRD\RecommendationResults\
+[WARN ] 2020-11-21 09:30:56,543 -- You rating data is in Compact format. CARSKit is working on transformation on the data format...
+[INFO ] 2020-11-21 09:30:56,583 -- User, Item, Rating, weather:sunny, weather:cloudy, rain:no, rain:yes, visibility:1, temperature:>30 < 35, temperature:<30, clouds:0, clouds:1
+[INFO ] 2020-11-21 09:30:56,586 -- Data transformaton completed (from Compact to Binary format). See new rating file: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\MochilerosRD\RecommendationResults\train.csv
+[INFO ] 2020-11-21 09:30:56,605 -- Dataset: ...sRD\RecommendationResults\train.csv
+[INFO ] 2020-11-21 09:30:56,607 -- DataPath: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\MochilerosRD\RecommendationResults\train.csv
+[INFO ] 2020-11-21 09:30:56,659 -- Rating data set has been successfully loaded.
+[INFO ] 2020-11-21 09:30:56,735 -- 
+/*********************************************************************************************************************
  *
- * Dataset: C:\Users\Pgrm9\Downloads\CARSKit-master\context-aware_data_sets\Movie_DePaulMovie\RecommendationResults\train.csv
+ * Dataset: C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\MochilerosRD\RecommendationResults\train.csv
  * 
  * Statistics of U-I-C Matrix:
- * User amount: 97
- * Item amount: 79
- * Rate amount: 5035
- * Context dimensions: 3 (time, location, companion)
- * Context conditions: 10 (time: 3, location: 3, companion: 4)
- * Context situations: 13
- * Data density: 1.8230%
- * Scale distribution: [1.0 x 829, 2.0 x 625, 4.0 x 1209, 5.0 x 1367, 3.0 x 1005]
- * Average value of all ratings: 3.328892
- * Standard deviation of all ratings: 1.414777
- * Mode of all rating values: 5.000000
+ * User amount: 20
+ * Item amount: 20
+ * Rate amount: 33
+ * Context dimensions: 5 (weather, rain, visibility, temperature, clouds)
+ * Context conditions: 9 (weather: 2, rain: 2, visibility: 1, temperature: 2, clouds: 2)
+ * Context situations: 4
+ * Data density: 0.5156%
+ * Scale distribution: [4.0 x 10, 2.0 x 9, 1.0 x 3, 5.0 x 7, 3.0 x 4]
+ * Average value of all ratings: 3.272727
+ * Standard deviation of all ratings: 1.309007
+ * Mode of all rating values: 4.000000
  * Median of all rating values: 4.000000
  * 
- * Distribution of rate counts per user: mean = 51.90721649484536, median = 44.0, sd = 35.4956313485113
- * Distribution of rate counts per item: mean = 63.734177215189874, median = 57.0, sd = 35.492808635403236
- * Distribution of rate counts per context condition: mean = 1538.142857142857, median = 1630.0, sd = 317.8712356426413
+ * Distribution of rate counts per user: mean = 1.65, median = 1.0, sd = 1.5256146302392357
+ * Distribution of rate counts per item: mean = 1.65, median = 2.0, sd = 0.47696960070847294
+ * Distribution of rate counts per context condition: mean = 18.333333333333332, median = 23.0, sd = 11.035296904831233
  * 
  * Average rating in each context condition: (Average, Counts)
- * time:weekday - 3.129863, 1748
- * time:weekend - 3.340033, 1841
- * location:cinema - 3.259316, 1959
- * location:home - 3.211656, 1630
- * companion:alone - 3.197099, 1172
- * companion:family - 3.163433, 1340
- * companion:partner - 3.374188, 1077
+ * weather:sunny - 3.258065, 31
+ * weather:cloudy - 3.500000, 2
+ * rain:no - 3.217391, 23
+ * rain:yes - 3.400000, 10
+ * visibility:1 - 3.272727, 33
+ * temperature:>30 < 35 - 3.217391, 23
+ * temperature:<30 - 3.400000, 10
+ * clouds:0 - 3.250000, 28
+ * clouds:1 - 3.400000, 5
  * 
  * Statistics of UI Matrix:
- * User amount: 97
- * Item amount: 79
- * Rate amount: 1443.0
- * Data density: 18.8307%
- * Data density (unique pairs): 88.2883%
- * Average value of all ratings: 3.358276
- * Standard deviation of all ratings: 1.253307
- * Mode of all rating values: 5.000000
- * Median of all rating values: 3.666667
- * Distribution of rate counts per UI pair: mean = 3.4892584892584892, median = 4.0, sd = 0.9887038725511924
+ * User amount: 20
+ * Item amount: 20
+ * Rate amount: 33.0
+ * Data density: 8.2500%
+ * Data density (unique pairs): 0.0000%
+ * Average value of all ratings: 3.272727
+ * Standard deviation of all ratings: 1.309007
+ * Mode of all rating values: 4.000000
+ * Median of all rating values: 4.000000
+ * Distribution of rate counts per UI pair: mean = 1.0, median = 1.0, sd = 0.0
  * 
  * Statistics of UC Matrix:
- * User amount: 97
- * Condition amount: 10
- * Rate amount: 536.0
- * Data density: 55.2577%
- * Data density (unique pairs): 100.0000%
- * Average value of all ratings: 3.100297
- * Standard deviation of all ratings: 0.967798
- * Mode of all rating values: 1.000000
- * Median of all rating values: 3.240385
- * Distribution of rate counts per UC pair: mean = 20.08768656716418, median = 16.0, sd = 15.32075455129945
+ * User amount: 20
+ * Condition amount: 9
+ * Rate amount: 100.0
+ * Data density: 55.5556%
+ * Data density (unique pairs): 35.0000%
+ * Average value of all ratings: 3.456250
+ * Standard deviation of all ratings: 1.463768
+ * Mode of all rating values: 5.000000
+ * Median of all rating values: 4.000000
+ * Distribution of rate counts per UC pair: mean = 1.65, median = 1.0, sd = 1.5256146302392386
  * 
  * Statistics of IC Matrix:
- * Item amount: 79
- * Condition amount: 10
- * Rate amount: 552.0
- * Data density: 69.8734%
- * Data density (unique pairs): 98.5507%
- * Average value of all ratings: 3.094907
- * Standard deviation of all ratings: 0.705512
- * Mode of all rating values: 3.000000
- * Median of all rating values: 3.153125
- * Distribution of rate counts per IC pair: mean = 19.505434782608695, median = 18.0, sd = 12.133166881695804
+ * Item amount: 20
+ * Condition amount: 9
+ * Rate amount: 112.0
+ * Data density: 62.2222%
+ * Data density (unique pairs): 47.3214%
+ * Average value of all ratings: 3.250000
+ * Standard deviation of all ratings: 1.304183
+ * Mode of all rating values: 4.000000
+ * Median of all rating values: 4.000000
+ * Distribution of rate counts per IC pair: mean = 1.4732142857142858, median = 1.0, sd = 0.4992820100005643
  * 
- * Paired t-test on user's average rating between UI and UC matrix: absolute mean diff = 0.19367884023212056, p-value = 3.614176372518377E-15
- * Paired t-test on item's average rating between UI and IC matrix: absolute mean diff = 0.08886438685006359, p-value = 1.9845706922083956E-4
+ * Paired t-test on user's average rating between UI and UC matrix: absolute mean diff = 0.0, p-value = NaN
+ * Paired t-test on item's average rating between UI and IC matrix: absolute mean diff = 0.0, p-value = NaN
  *
- *******************************************************************************************************************************************/
-[INFO ] 2020-10-18 03:18:34,583 -- With Setup: given-ratio -r 0.8 --early-stop RMSE
-[DEBUG] 2020-10-18 03:18:34,591 -- training amount: 4068, test amount: 961
-[DEBUG] 2020-10-18 03:18:34,592 -- UserSplitting: startId = 97
-[INFO ] 2020-10-18 03:18:34,647 -- 48 users have been splitted.
-[INFO ] 2020-10-18 03:18:34,647 -- User Splitting is done... Algorithm 'svd++' will be applied to the transformed data set.
-[INFO ] 2020-10-18 03:18:34,662 -- Density of transformed 2D rating matrix ============================== 0.17206460061108686
-[DEBUG] 2020-10-18 03:18:34,787 -- UserSplitting-SVD++ iter 1: loss = 1448.1575, delta_loss = -1448.1575, RMSE = 1.254215, delta_RMSE = -1.254215, learn_rate = 0.02
-[DEBUG] 2020-10-18 03:18:34,810 -- UserSplitting-SVD++ iter 2: loss = 1178.165, delta_loss = 269.99243, RMSE = 1.202060, delta_RMSE = 0.052155, learn_rate = 0.02
-[DEBUG] 2020-10-18 03:18:34,831 -- UserSplitting-SVD++ iter 3: loss = 1060.9045, delta_loss = 117.260506, RMSE = 1.171806, delta_RMSE = 0.030254, learn_rate = 0.021
-[DEBUG] 2020-10-18 03:18:34,853 -- UserSplitting-SVD++ iter 4: loss = 978.98724, delta_loss = 81.91731, RMSE = 1.147930, delta_RMSE = 0.023876, learn_rate = 0.022049999
-[DEBUG] 2020-10-18 03:18:34,872 -- UserSplitting-SVD++ iter 5: loss = 903.41595, delta_loss = 75.57132, RMSE = 1.124647, delta_RMSE = 0.023283, learn_rate = 0.0231525
-[DEBUG] 2020-10-18 03:18:34,892 -- UserSplitting-SVD++ iter 6: loss = 823.80023, delta_loss = 79.61568, RMSE = 1.100268, delta_RMSE = 0.024380, learn_rate = 0.024310125
-[DEBUG] 2020-10-18 03:18:34,914 -- UserSplitting-SVD++ iter 7: loss = 739.39075, delta_loss = 84.40949, RMSE = 1.075992, delta_RMSE = 0.024276, learn_rate = 0.025525631
-[DEBUG] 2020-10-18 03:18:34,933 -- UserSplitting-SVD++ iter 8: loss = 654.60443, delta_loss = 84.78633, RMSE = 1.054297, delta_RMSE = 0.021695, learn_rate = 0.026801912
-[DEBUG] 2020-10-18 03:18:34,952 -- UserSplitting-SVD++ iter 9: loss = 573.85803, delta_loss = 80.74642, RMSE = 1.036822, delta_RMSE = 0.017475, learn_rate = 0.028142007
-[DEBUG] 2020-10-18 03:18:34,967 -- UserSplitting-SVD++ iter 10: loss = 499.9048, delta_loss = 73.95322, RMSE = 1.023905, delta_RMSE = 0.012917, learn_rate = 0.029549109
-[DEBUG] 2020-10-18 03:18:34,985 -- UserSplitting-SVD++ iter 11: loss = 434.47238, delta_loss = 65.4324, RMSE = 1.015094, delta_RMSE = 0.008811, learn_rate = 0.031026565
-[DEBUG] 2020-10-18 03:18:35,005 -- UserSplitting-SVD++ iter 12: loss = 378.30508, delta_loss = 56.16731, RMSE = 1.009849, delta_RMSE = 0.005245, learn_rate = 0.03257789
-[DEBUG] 2020-10-18 03:18:35,030 -- UserSplitting-SVD++ iter 13: loss = 331.22168, delta_loss = 47.083405, RMSE = 1.007253, delta_RMSE = 0.002596, learn_rate = 0.034206785
-[DEBUG] 2020-10-18 03:18:35,048 -- UserSplitting-SVD++ iter 14: loss = 292.47818, delta_loss = 38.743507, RMSE = 1.007502, delta_RMSE = -0.000249, learn_rate = 0.035917126
-[DEBUG] 2020-10-18 03:18:35,066 -- UserSplitting-SVD++ iter 15: loss = 260.94183, delta_loss = 31.536324, RMSE = 1.009881, delta_RMSE = -0.002379, learn_rate = 0.037712984
-[DEBUG] 2020-10-18 03:18:35,073 -- UserSplitting-SVD++ iter 16: loss = 235.24306, delta_loss = 25.69878, RMSE = 1.013433, delta_RMSE = -0.003552, learn_rate = 0.039598633
-[DEBUG] 2020-10-18 03:18:35,077 -- UserSplitting-SVD++ iter 17: loss = 214.06328, delta_loss = 21.17979, RMSE = 1.017948, delta_RMSE = -0.004515, learn_rate = 0.04157856
-[DEBUG] 2020-10-18 03:18:35,082 -- UserSplitting-SVD++ iter 18: loss = 196.35797, delta_loss = 17.7053, RMSE = 1.023125, delta_RMSE = -0.005178, learn_rate = 0.04365749
-[DEBUG] 2020-10-18 03:18:35,086 -- UserSplitting-SVD++ iter 19: loss = 181.3895, delta_loss = 14.968482, RMSE = 1.028344, delta_RMSE = -0.005219, learn_rate = 0.045840364
-[DEBUG] 2020-10-18 03:18:35,091 -- UserSplitting-SVD++ iter 20: loss = 168.6487, delta_loss = 12.740797, RMSE = 1.033996, delta_RMSE = -0.005653, learn_rate = 0.048132382
-[DEBUG] 2020-10-18 03:18:35,095 -- UserSplitting-SVD++ iter 21: loss = 157.76569, delta_loss = 10.883016, RMSE = 1.039890, delta_RMSE = -0.005894, learn_rate = 0.050539
-[DEBUG] 2020-10-18 03:18:35,099 -- UserSplitting-SVD++ iter 22: loss = 148.44748, delta_loss = 9.318199, RMSE = 1.046119, delta_RMSE = -0.006229, learn_rate = 0.053065952
-[DEBUG] 2020-10-18 03:18:35,104 -- UserSplitting-SVD++ iter 23: loss = 140.44984, delta_loss = 7.997631, RMSE = 1.051897, delta_RMSE = -0.005778, learn_rate = 0.05571925
-[DEBUG] 2020-10-18 03:18:35,108 -- UserSplitting-SVD++ iter 24: loss = 133.57365, delta_loss = 6.8761945, RMSE = 1.057627, delta_RMSE = -0.005730, learn_rate = 0.058505215
-[DEBUG] 2020-10-18 03:18:35,113 -- UserSplitting-SVD++ iter 25: loss = 127.66476, delta_loss = 5.908903, RMSE = 1.062495, delta_RMSE = -0.004868, learn_rate = 0.061430473
-[DEBUG] 2020-10-18 03:18:35,118 -- UserSplitting-SVD++ iter 26: loss = 122.606895, delta_loss = 5.057856, RMSE = 1.067100, delta_RMSE = -0.004604, learn_rate = 0.064502
-[DEBUG] 2020-10-18 03:18:35,122 -- UserSplitting-SVD++ iter 27: loss = 118.31575, delta_loss = 4.291145, RMSE = 1.071433, delta_RMSE = -0.004333, learn_rate = 0.0677271
-[DEBUG] 2020-10-18 03:18:35,127 -- UserSplitting-SVD++ iter 28: loss = 114.73935, delta_loss = 3.5763993, RMSE = 1.075614, delta_RMSE = -0.004181, learn_rate = 0.07111345
-[DEBUG] 2020-10-18 03:18:35,132 -- UserSplitting-SVD++ iter 29: loss = 111.85674, delta_loss = 2.8826132, RMSE = 1.079610, delta_RMSE = -0.003996, learn_rate = 0.07466912
-[DEBUG] 2020-10-18 03:18:35,136 -- UserSplitting-SVD++ iter 30: loss = 109.66977, delta_loss = 2.1869738, RMSE = 1.082897, delta_RMSE = -0.003287, learn_rate = 0.07840258
-[DEBUG] 2020-10-18 03:18:35,140 -- UserSplitting-SVD++ iter 31: loss = 108.19666, delta_loss = 1.4731002, RMSE = 1.085998, delta_RMSE = -0.003100, learn_rate = 0.08232271
-[DEBUG] 2020-10-18 03:18:35,145 -- UserSplitting-SVD++ iter 32: loss = 107.47465, delta_loss = 0.722017, RMSE = 1.089075, delta_RMSE = -0.003077, learn_rate = 0.08643884
-[DEBUG] 2020-10-18 03:18:35,149 -- UserSplitting-SVD++ iter 33: loss = 107.5651, delta_loss = -0.09045586, RMSE = 1.091918, delta_RMSE = -0.002843, learn_rate = 0.09076079
-[DEBUG] 2020-10-18 03:18:35,154 -- UserSplitting-SVD++ iter 34: loss = 70.742615, delta_loss = 36.822495, RMSE = 1.088030, delta_RMSE = 0.003888, learn_rate = 0.045380395
-[DEBUG] 2020-10-18 03:18:35,159 -- UserSplitting-SVD++ iter 35: loss = 60.99764, delta_loss = 9.744972, RMSE = 1.086736, delta_RMSE = 0.001293, learn_rate = 0.047649413
-[DEBUG] 2020-10-18 03:18:35,163 -- UserSplitting-SVD++ iter 36: loss = 57.84588, delta_loss = 3.1517596, RMSE = 1.086548, delta_RMSE = 0.000189, learn_rate = 0.050031886
-[DEBUG] 2020-10-18 03:18:35,168 -- UserSplitting-SVD++ iter 37: loss = 56.62115, delta_loss = 1.2247293, RMSE = 1.086799, delta_RMSE = -0.000252, learn_rate = 0.052533478
-[DEBUG] 2020-10-18 03:18:35,172 -- UserSplitting-SVD++ iter 38: loss = 56.168343, delta_loss = 0.4528104, RMSE = 1.087294, delta_RMSE = -0.000495, learn_rate = 0.055160154
-[DEBUG] 2020-10-18 03:18:35,176 -- UserSplitting-SVD++ iter 39: loss = 56.123863, delta_loss = 0.044476498, RMSE = 1.087981, delta_RMSE = -0.000686, learn_rate = 0.05791816
-[DEBUG] 2020-10-18 03:18:35,181 -- UserSplitting-SVD++ iter 40: loss = 56.351933, delta_loss = -0.22806822, RMSE = 1.088789, delta_RMSE = -0.000808, learn_rate = 0.060814068
-[DEBUG] 2020-10-18 03:18:35,185 -- UserSplitting-SVD++ iter 41: loss = 41.797344, delta_loss = 14.554589, RMSE = 1.087257, delta_RMSE = 0.001532, learn_rate = 0.030407034
-[DEBUG] 2020-10-18 03:18:35,190 -- UserSplitting-SVD++ iter 42: loss = 39.728115, delta_loss = 2.06923, RMSE = 1.087133, delta_RMSE = 0.000124, learn_rate = 0.031927384
-[DEBUG] 2020-10-18 03:18:35,194 -- UserSplitting-SVD++ iter 43: loss = 38.968616, delta_loss = 0.7594974, RMSE = 1.087229, delta_RMSE = -0.000095, learn_rate = 0.033523753
-[DEBUG] 2020-10-18 03:18:35,198 -- UserSplitting-SVD++ iter 44: loss = 38.66156, delta_loss = 0.30705667, RMSE = 1.087478, delta_RMSE = -0.000249, learn_rate = 0.035199944
-[DEBUG] 2020-10-18 03:18:35,203 -- UserSplitting-SVD++ iter 45: loss = 38.57398, delta_loss = 0.08758267, RMSE = 1.087817, delta_RMSE = -0.000340, learn_rate = 0.03695994
-[DEBUG] 2020-10-18 03:18:35,207 -- UserSplitting-SVD++ iter 46: loss = 38.616867, delta_loss = -0.04289201, RMSE = 1.088236, delta_RMSE = -0.000419, learn_rate = 0.038807936
-[DEBUG] 2020-10-18 03:18:35,213 -- UserSplitting-SVD++ iter 47: loss = 31.63435, delta_loss = 6.9825187, RMSE = 1.087656, delta_RMSE = 0.000580, learn_rate = 0.019403968
-[DEBUG] 2020-10-18 03:18:35,217 -- UserSplitting-SVD++ iter 48: loss = 31.186338, delta_loss = 0.44801095, RMSE = 1.087612, delta_RMSE = 0.000044, learn_rate = 0.020374168
-[DEBUG] 2020-10-18 03:18:35,222 -- UserSplitting-SVD++ iter 49: loss = 30.995758, delta_loss = 0.19058156, RMSE = 1.087695, delta_RMSE = -0.000082, learn_rate = 0.021392874
-[DEBUG] 2020-10-18 03:18:35,228 -- UserSplitting-SVD++ iter 50: loss = 30.920374, delta_loss = 0.07538438, RMSE = 1.087843, delta_RMSE = -0.000149, learn_rate = 0.022462519
-[DEBUG] 2020-10-18 03:18:35,234 -- UserSplitting-SVD++ iter 51: loss = 30.911507, delta_loss = 0.0088660335, RMSE = 1.088033, delta_RMSE = -0.000190, learn_rate = 0.023585645
-[DEBUG] 2020-10-18 03:18:35,239 -- UserSplitting-SVD++ iter 52: loss = 30.947554, delta_loss = -0.036046237, RMSE = 1.088249, delta_RMSE = -0.000215, learn_rate = 0.024764927
-[DEBUG] 2020-10-18 03:18:35,243 -- UserSplitting-SVD++ iter 53: loss = 27.196815, delta_loss = 3.7507381, RMSE = 1.088043, delta_RMSE = 0.000206, learn_rate = 0.012382464
-[DEBUG] 2020-10-18 03:18:35,247 -- UserSplitting-SVD++ iter 54: loss = 27.104767, delta_loss = 0.09204848, RMSE = 1.088025, delta_RMSE = 0.000018, learn_rate = 0.013001586
-[DEBUG] 2020-10-18 03:18:35,251 -- UserSplitting-SVD++ iter 55: loss = 27.067137, delta_loss = 0.03763017, RMSE = 1.088076, delta_RMSE = -0.000051, learn_rate = 0.013651666
-[DEBUG] 2020-10-18 03:18:35,260 -- UserSplitting-SVD++ iter 56: loss = 27.060158, delta_loss = 0.0069794063, RMSE = 1.088165, delta_RMSE = -0.000089, learn_rate = 0.014334249
-[DEBUG] 2020-10-18 03:18:35,264 -- UserSplitting-SVD++ iter 57: loss = 27.07402, delta_loss = -0.013862467, RMSE = 1.088278, delta_RMSE = -0.000113, learn_rate = 0.015050962
-[DEBUG] 2020-10-18 03:18:35,269 -- UserSplitting-SVD++ iter 58: loss = 25.01674, delta_loss = 2.0572786, RMSE = 1.088218, delta_RMSE = 0.000060, learn_rate = 0.007525481
-[DEBUG] 2020-10-18 03:18:35,275 -- UserSplitting-SVD++ iter 59: loss = 25.001839, delta_loss = 0.0149027165, RMSE = 1.088219, delta_RMSE = -0.000000, learn_rate = 0.007901755
-[DEBUG] 2020-10-18 03:18:35,280 -- UserSplitting-SVD++ iter 60: loss = 24.99901, delta_loss = 0.0028272022, RMSE = 1.088246, delta_RMSE = -0.000027, learn_rate = 0.008296843
-[DEBUG] 2020-10-18 03:18:35,285 -- UserSplitting-SVD++ iter 61: loss = 25.004578, delta_loss = -0.0055676443, RMSE = 1.088291, delta_RMSE = -0.000045, learn_rate = 0.0087116845
-[DEBUG] 2020-10-18 03:18:35,290 -- UserSplitting-SVD++ iter 62: loss = 23.883793, delta_loss = 1.1207863, RMSE = 1.088281, delta_RMSE = 0.000010, learn_rate = 0.0043558422
-[DEBUG] 2020-10-18 03:18:35,291 -- UserSplitting-SVD++ evaluate test data ... 
-[DEBUG] 2020-10-18 03:18:35,306 -- UserSplitting-SVD++ has writeen rating predictions to C:\Users\Pgrm9\Downloads\CARSKit-master\context-aware_data_sets\Movie_DePaulMovie\RecommendationResults\UserSplitting-SVD++-rating-predictions.txt
-[DEBUG] 2020-10-18 03:18:35,345 -- Learned models are saved to folder "C:\Users\Pgrm9\Downloads\CARSKit-master\context-aware_data_sets\Movie_DePaulMovie\RecommendationResults\UserSplitting-SVD++\"
-[INFO ] 2020-10-18 03:18:35,345 -- Final Results by UserSplitting-SVD++, MAE: 0.755088, RMSE: 1.088281, NAME: 0.188772, rMAE: 0.754422, rRMSE: 1.125340, MPE: 0.000000, numFactors: 10, numIter: 100, lrate: 0.02, maxlrate: -1.0, regB: 1.0E-4, regU: 1.0E-4, regI: 1.0E-4, regC: 0.001, isBoldDriver: true, Time: '00:00','00:00'
+ *********************************************************************************************************************/
+[INFO ] 2020-11-21 09:30:56,737 -- With Setup: given-ratio -r 0.8 --early-stop RMSE
+[DEBUG] 2020-11-21 09:30:56,739 -- training amount: 25, test amount: 8
+[DEBUG] 2020-11-21 09:30:56,740 -- UserSplitting: startId = 20
+[INFO ] 2020-11-21 09:30:56,742 -- 0 users have been splitted.
+[INFO ] 2020-11-21 09:30:56,743 -- User Splitting is done... Algorithm 'svd++' will be applied to the transformed data set.
+[INFO ] 2020-11-21 09:30:56,748 -- Density of transformed 2D rating matrix ============================== 0.0625
+[DEBUG] 2020-11-21 09:30:56,829 -- UserSplitting-SVD++ iter 1: loss = 25.042084, delta_loss = -25.042084, RMSE = 1.167343, delta_RMSE = -1.167343, learn_rate = 5.0E-5
+[DEBUG] 2020-11-21 09:30:56,833 -- UserSplitting-SVD++ iter 2: loss = 25.026066, delta_loss = 0.01601869, RMSE = 1.167287, delta_RMSE = 0.000056, learn_rate = 5.0E-5
+[DEBUG] 2020-11-21 09:30:56,837 -- UserSplitting-SVD++ iter 3: loss = 25.010035, delta_loss = 0.016031135, RMSE = 1.167229, delta_RMSE = 0.000059, learn_rate = 5.25E-5
+[DEBUG] 2020-11-21 09:30:56,840 -- UserSplitting-SVD++ iter 4: loss = 24.993214, delta_loss = 0.01682049, RMSE = 1.167167, delta_RMSE = 0.000061, learn_rate = 5.5124998E-5
+[DEBUG] 2020-11-21 09:30:56,842 -- UserSplitting-SVD++ iter 5: loss = 24.975567, delta_loss = 0.017648075, RMSE = 1.167103, delta_RMSE = 0.000065, learn_rate = 5.7881247E-5
+[DEBUG] 2020-11-21 09:30:56,844 -- UserSplitting-SVD++ iter 6: loss = 24.95705, delta_loss = 0.018515676, RMSE = 1.167035, delta_RMSE = 0.000068, learn_rate = 6.077531E-5
+[DEBUG] 2020-11-21 09:30:56,847 -- UserSplitting-SVD++ iter 7: loss = 24.937626, delta_loss = 0.019425157, RMSE = 1.166964, delta_RMSE = 0.000071, learn_rate = 6.381408E-5
+[DEBUG] 2020-11-21 09:30:56,849 -- UserSplitting-SVD++ iter 8: loss = 24.917246, delta_loss = 0.020378461, RMSE = 1.166889, delta_RMSE = 0.000075, learn_rate = 6.700478E-5
+[DEBUG] 2020-11-21 09:30:56,850 -- UserSplitting-SVD++ iter 9: loss = 24.895868, delta_loss = 0.02137761, RMSE = 1.166811, delta_RMSE = 0.000078, learn_rate = 7.035502E-5
+[DEBUG] 2020-11-21 09:30:56,851 -- UserSplitting-SVD++ iter 10: loss = 24.873444, delta_loss = 0.022424717, RMSE = 1.166729, delta_RMSE = 0.000082, learn_rate = 7.387277E-5
+[DEBUG] 2020-11-21 09:30:56,853 -- UserSplitting-SVD++ iter 11: loss = 24.849922, delta_loss = 0.023521977, RMSE = 1.166643, delta_RMSE = 0.000086, learn_rate = 7.756641E-5
+[DEBUG] 2020-11-21 09:30:56,854 -- UserSplitting-SVD++ iter 12: loss = 24.82525, delta_loss = 0.024671676, RMSE = 1.166552, delta_RMSE = 0.000090, learn_rate = 8.144473E-5
+[DEBUG] 2020-11-21 09:30:56,855 -- UserSplitting-SVD++ iter 13: loss = 24.799374, delta_loss = 0.025876192, RMSE = 1.166458, delta_RMSE = 0.000095, learn_rate = 8.5516964E-5
+[DEBUG] 2020-11-21 09:30:56,856 -- UserSplitting-SVD++ iter 14: loss = 24.772236, delta_loss = 0.027138002, RMSE = 1.166358, delta_RMSE = 0.000099, learn_rate = 8.979281E-5
+[DEBUG] 2020-11-21 09:30:56,857 -- UserSplitting-SVD++ iter 15: loss = 24.743776, delta_loss = 0.028459674, RMSE = 1.166254, delta_RMSE = 0.000104, learn_rate = 9.4282455E-5
+[DEBUG] 2020-11-21 09:30:56,858 -- UserSplitting-SVD++ iter 16: loss = 24.713932, delta_loss = 0.02984388, RMSE = 1.166144, delta_RMSE = 0.000109, learn_rate = 9.899658E-5
+[DEBUG] 2020-11-21 09:30:56,858 -- UserSplitting-SVD++ iter 17: loss = 24.68264, delta_loss = 0.031293392, RMSE = 1.166030, delta_RMSE = 0.000115, learn_rate = 1.03946404E-4
+[DEBUG] 2020-11-21 09:30:56,860 -- UserSplitting-SVD++ iter 18: loss = 24.649828, delta_loss = 0.032811087, RMSE = 1.165909, delta_RMSE = 0.000120, learn_rate = 1.0914373E-4
+[DEBUG] 2020-11-21 09:30:56,861 -- UserSplitting-SVD++ iter 19: loss = 24.615429, delta_loss = 0.03439994, RMSE = 1.165783, delta_RMSE = 0.000126, learn_rate = 1.14600916E-4
+[DEBUG] 2020-11-21 09:30:56,862 -- UserSplitting-SVD++ iter 20: loss = 24.579365, delta_loss = 0.036063053, RMSE = 1.165650, delta_RMSE = 0.000132, learn_rate = 1.2033096E-4
+[DEBUG] 2020-11-21 09:30:56,863 -- UserSplitting-SVD++ iter 21: loss = 24.541561, delta_loss = 0.03780361, RMSE = 1.165512, delta_RMSE = 0.000139, learn_rate = 1.2634751E-4
+[DEBUG] 2020-11-21 09:30:56,864 -- UserSplitting-SVD++ iter 22: loss = 24.501938, delta_loss = 0.039624926, RMSE = 1.165366, delta_RMSE = 0.000146, learn_rate = 1.3266488E-4
+[DEBUG] 2020-11-21 09:30:56,865 -- UserSplitting-SVD++ iter 23: loss = 24.460407, delta_loss = 0.04153041, RMSE = 1.165213, delta_RMSE = 0.000153, learn_rate = 1.3929812E-4
+[DEBUG] 2020-11-21 09:30:56,866 -- UserSplitting-SVD++ iter 24: loss = 24.416883, delta_loss = 0.0435236, RMSE = 1.165053, delta_RMSE = 0.000160, learn_rate = 1.4626303E-4
+[DEBUG] 2020-11-21 09:30:56,867 -- UserSplitting-SVD++ iter 25: loss = 24.371275, delta_loss = 0.04560813, RMSE = 1.164885, delta_RMSE = 0.000168, learn_rate = 1.5357618E-4
+[DEBUG] 2020-11-21 09:30:56,868 -- UserSplitting-SVD++ iter 26: loss = 24.323486, delta_loss = 0.047787745, RMSE = 1.164709, delta_RMSE = 0.000176, learn_rate = 1.61255E-4
+[DEBUG] 2020-11-21 09:30:56,869 -- UserSplitting-SVD++ iter 27: loss = 24.27342, delta_loss = 0.050066303, RMSE = 1.164525, delta_RMSE = 0.000184, learn_rate = 1.6931775E-4
+[DEBUG] 2020-11-21 09:30:56,870 -- UserSplitting-SVD++ iter 28: loss = 24.220972, delta_loss = 0.05244777, RMSE = 1.164331, delta_RMSE = 0.000193, learn_rate = 1.7778363E-4
+[DEBUG] 2020-11-21 09:30:56,871 -- UserSplitting-SVD++ iter 29: loss = 24.166037, delta_loss = 0.05493621, RMSE = 1.164129, delta_RMSE = 0.000203, learn_rate = 1.8667281E-4
+[DEBUG] 2020-11-21 09:30:56,872 -- UserSplitting-SVD++ iter 30: loss = 24.108501, delta_loss = 0.0575358, RMSE = 1.163916, delta_RMSE = 0.000212, learn_rate = 1.9600645E-4
+[DEBUG] 2020-11-21 09:30:56,873 -- UserSplitting-SVD++ iter 31: loss = 24.04825, delta_loss = 0.060250796, RMSE = 1.163694, delta_RMSE = 0.000223, learn_rate = 2.0580678E-4
+[DEBUG] 2020-11-21 09:30:56,874 -- UserSplitting-SVD++ iter 32: loss = 23.985165, delta_loss = 0.063085556, RMSE = 1.163460, delta_RMSE = 0.000233, learn_rate = 2.1609712E-4
+[DEBUG] 2020-11-21 09:30:56,875 -- UserSplitting-SVD++ iter 33: loss = 23.91912, delta_loss = 0.066044524, RMSE = 1.163216, delta_RMSE = 0.000244, learn_rate = 2.2690198E-4
+[DEBUG] 2020-11-21 09:30:56,876 -- UserSplitting-SVD++ iter 34: loss = 23.849987, delta_loss = 0.06913221, RMSE = 1.162960, delta_RMSE = 0.000256, learn_rate = 2.3824707E-4
+[DEBUG] 2020-11-21 09:30:56,877 -- UserSplitting-SVD++ iter 35: loss = 23.777636, delta_loss = 0.072353214, RMSE = 1.162692, delta_RMSE = 0.000268, learn_rate = 2.501594E-4
+[DEBUG] 2020-11-21 09:30:56,878 -- UserSplitting-SVD++ iter 36: loss = 23.701923, delta_loss = 0.07571217, RMSE = 1.162411, delta_RMSE = 0.000281, learn_rate = 2.626674E-4
+[DEBUG] 2020-11-21 09:30:56,878 -- UserSplitting-SVD++ iter 37: loss = 23.62271, delta_loss = 0.07921376, RMSE = 1.162117, delta_RMSE = 0.000294, learn_rate = 2.7580076E-4
+[DEBUG] 2020-11-21 09:30:56,879 -- UserSplitting-SVD++ iter 38: loss = 23.539846, delta_loss = 0.08286272, RMSE = 1.161809, delta_RMSE = 0.000308, learn_rate = 2.895908E-4
+[DEBUG] 2020-11-21 09:30:56,880 -- UserSplitting-SVD++ iter 39: loss = 23.453182, delta_loss = 0.086663775, RMSE = 1.161487, delta_RMSE = 0.000322, learn_rate = 3.0407033E-4
+[DEBUG] 2020-11-21 09:30:56,881 -- UserSplitting-SVD++ iter 40: loss = 23.36256, delta_loss = 0.090621665, RMSE = 1.161150, delta_RMSE = 0.000337, learn_rate = 3.1927385E-4
+[DEBUG] 2020-11-21 09:30:56,883 -- UserSplitting-SVD++ iter 41: loss = 23.26782, delta_loss = 0.0947411, RMSE = 1.160797, delta_RMSE = 0.000353, learn_rate = 3.3523754E-4
+[DEBUG] 2020-11-21 09:30:56,884 -- UserSplitting-SVD++ iter 42: loss = 23.168793, delta_loss = 0.099026754, RMSE = 1.160427, delta_RMSE = 0.000370, learn_rate = 3.5199942E-4
+[DEBUG] 2020-11-21 09:30:56,886 -- UserSplitting-SVD++ iter 43: loss = 23.06531, delta_loss = 0.10348321, RMSE = 1.160040, delta_RMSE = 0.000387, learn_rate = 3.695994E-4
+[DEBUG] 2020-11-21 09:30:56,892 -- UserSplitting-SVD++ iter 44: loss = 22.957195, delta_loss = 0.10811497, RMSE = 1.159636, delta_RMSE = 0.000404, learn_rate = 3.8807938E-4
+[DEBUG] 2020-11-21 09:30:56,893 -- UserSplitting-SVD++ iter 45: loss = 22.844269, delta_loss = 0.11292642, RMSE = 1.159213, delta_RMSE = 0.000423, learn_rate = 4.0748334E-4
+[DEBUG] 2020-11-21 09:30:56,894 -- UserSplitting-SVD++ iter 46: loss = 22.726347, delta_loss = 0.11792175, RMSE = 1.158771, delta_RMSE = 0.000442, learn_rate = 4.278575E-4
+[DEBUG] 2020-11-21 09:30:56,894 -- UserSplitting-SVD++ iter 47: loss = 22.603241, delta_loss = 0.12310496, RMSE = 1.158308, delta_RMSE = 0.000462, learn_rate = 4.4925036E-4
+[DEBUG] 2020-11-21 09:30:56,895 -- UserSplitting-SVD++ iter 48: loss = 22.474762, delta_loss = 0.12847982, RMSE = 1.157825, delta_RMSE = 0.000483, learn_rate = 4.717129E-4
+[DEBUG] 2020-11-21 09:30:56,896 -- UserSplitting-SVD++ iter 49: loss = 22.340712, delta_loss = 0.1340498, RMSE = 1.157320, delta_RMSE = 0.000505, learn_rate = 4.9529853E-4
+[DEBUG] 2020-11-21 09:30:56,897 -- UserSplitting-SVD++ iter 50: loss = 22.200893, delta_loss = 0.13981804, RMSE = 1.156792, delta_RMSE = 0.000528, learn_rate = 5.2006345E-4
+[DEBUG] 2020-11-21 09:30:56,898 -- UserSplitting-SVD++ iter 51: loss = 22.055107, delta_loss = 0.14578727, RMSE = 1.156241, delta_RMSE = 0.000551, learn_rate = 5.460666E-4
+[DEBUG] 2020-11-21 09:30:56,899 -- UserSplitting-SVD++ iter 52: loss = 21.903147, delta_loss = 0.15195979, RMSE = 1.155665, delta_RMSE = 0.000576, learn_rate = 5.7336997E-4
+[DEBUG] 2020-11-21 09:30:56,900 -- UserSplitting-SVD++ iter 53: loss = 21.74481, delta_loss = 0.15833737, RMSE = 1.155064, delta_RMSE = 0.000601, learn_rate = 6.0203846E-4
+[DEBUG] 2020-11-21 09:30:56,901 -- UserSplitting-SVD++ iter 54: loss = 21.579887, delta_loss = 0.16492121, RMSE = 1.154437, delta_RMSE = 0.000627, learn_rate = 6.321404E-4
+[DEBUG] 2020-11-21 09:30:56,902 -- UserSplitting-SVD++ iter 55: loss = 21.408176, delta_loss = 0.17171186, RMSE = 1.153783, delta_RMSE = 0.000654, learn_rate = 6.637474E-4
+[DEBUG] 2020-11-21 09:30:56,903 -- UserSplitting-SVD++ iter 56: loss = 21.229467, delta_loss = 0.17870913, RMSE = 1.153100, delta_RMSE = 0.000683, learn_rate = 6.9693476E-4
+[DEBUG] 2020-11-21 09:30:56,904 -- UserSplitting-SVD++ iter 57: loss = 21.043554, delta_loss = 0.18591203, RMSE = 1.152389, delta_RMSE = 0.000712, learn_rate = 7.3178153E-4
+[DEBUG] 2020-11-21 09:30:56,904 -- UserSplitting-SVD++ iter 58: loss = 20.850237, delta_loss = 0.19331862, RMSE = 1.151647, delta_RMSE = 0.000742, learn_rate = 7.683706E-4
+[DEBUG] 2020-11-21 09:30:56,905 -- UserSplitting-SVD++ iter 59: loss = 20.649311, delta_loss = 0.20092604, RMSE = 1.150874, delta_RMSE = 0.000773, learn_rate = 8.0678915E-4
+[DEBUG] 2020-11-21 09:30:56,906 -- UserSplitting-SVD++ iter 60: loss = 20.44058, delta_loss = 0.20873025, RMSE = 1.150069, delta_RMSE = 0.000805, learn_rate = 8.4712857E-4
+[DEBUG] 2020-11-21 09:30:56,907 -- UserSplitting-SVD++ iter 61: loss = 20.223854, delta_loss = 0.21672611, RMSE = 1.149230, delta_RMSE = 0.000838, learn_rate = 8.89485E-4
+[DEBUG] 2020-11-21 09:30:56,908 -- UserSplitting-SVD++ iter 62: loss = 19.998947, delta_loss = 0.22490709, RMSE = 1.148358, delta_RMSE = 0.000873, learn_rate = 9.3395927E-4
+[DEBUG] 2020-11-21 09:30:56,909 -- UserSplitting-SVD++ iter 63: loss = 19.765682, delta_loss = 0.23326527, RMSE = 1.147450, delta_RMSE = 0.000908, learn_rate = 9.806573E-4
+[DEBUG] 2020-11-21 09:30:56,909 -- UserSplitting-SVD++ iter 64: loss = 19.523891, delta_loss = 0.24179122, RMSE = 1.146506, delta_RMSE = 0.000944, learn_rate = 0.0010296901
+[DEBUG] 2020-11-21 09:30:56,910 -- UserSplitting-SVD++ iter 65: loss = 19.273417, delta_loss = 0.25047383, RMSE = 1.145525, delta_RMSE = 0.000981, learn_rate = 0.0010811746
+[DEBUG] 2020-11-21 09:30:56,911 -- UserSplitting-SVD++ iter 66: loss = 19.014116, delta_loss = 0.25930023, RMSE = 1.144506, delta_RMSE = 0.001019, learn_rate = 0.0011352333
+[DEBUG] 2020-11-21 09:30:56,912 -- UserSplitting-SVD++ iter 67: loss = 18.745861, delta_loss = 0.26825562, RMSE = 1.143447, delta_RMSE = 0.001058, learn_rate = 0.001191995
+[DEBUG] 2020-11-21 09:30:56,913 -- UserSplitting-SVD++ iter 68: loss = 18.468538, delta_loss = 0.27732325, RMSE = 1.142349, delta_RMSE = 0.001099, learn_rate = 0.0012515947
+[DEBUG] 2020-11-21 09:30:56,913 -- UserSplitting-SVD++ iter 69: loss = 18.182053, delta_loss = 0.28648415, RMSE = 1.141209, delta_RMSE = 0.001139, learn_rate = 0.0013141745
+[DEBUG] 2020-11-21 09:30:56,914 -- UserSplitting-SVD++ iter 70: loss = 17.886337, delta_loss = 0.29571712, RMSE = 1.140028, delta_RMSE = 0.001181, learn_rate = 0.0013798833
+[DEBUG] 2020-11-21 09:30:56,915 -- UserSplitting-SVD++ iter 71: loss = 17.581337, delta_loss = 0.30499855, RMSE = 1.138804, delta_RMSE = 0.001224, learn_rate = 0.0014488774
+[DEBUG] 2020-11-21 09:30:56,916 -- UserSplitting-SVD++ iter 72: loss = 17.267035, delta_loss = 0.31430238, RMSE = 1.137537, delta_RMSE = 0.001267, learn_rate = 0.0015213212
+[DEBUG] 2020-11-21 09:30:56,916 -- UserSplitting-SVD++ iter 73: loss = 16.943436, delta_loss = 0.32359993, RMSE = 1.136226, delta_RMSE = 0.001311, learn_rate = 0.0015973873
+[DEBUG] 2020-11-21 09:30:56,918 -- UserSplitting-SVD++ iter 74: loss = 16.610575, delta_loss = 0.33285978, RMSE = 1.134870, delta_RMSE = 0.001356, learn_rate = 0.0016772567
+[DEBUG] 2020-11-21 09:30:56,918 -- UserSplitting-SVD++ iter 75: loss = 16.268528, delta_loss = 0.34204787, RMSE = 1.133470, delta_RMSE = 0.001401, learn_rate = 0.0017611195
+[DEBUG] 2020-11-21 09:30:56,919 -- UserSplitting-SVD++ iter 76: loss = 15.9174, delta_loss = 0.35112715, RMSE = 1.132023, delta_RMSE = 0.001446, learn_rate = 0.0018491754
+[DEBUG] 2020-11-21 09:30:56,920 -- UserSplitting-SVD++ iter 77: loss = 15.557343, delta_loss = 0.36005783, RMSE = 1.130531, delta_RMSE = 0.001492, learn_rate = 0.0019416342
+[DEBUG] 2020-11-21 09:30:56,921 -- UserSplitting-SVD++ iter 78: loss = 15.188545, delta_loss = 0.36879724, RMSE = 1.128993, delta_RMSE = 0.001538, learn_rate = 0.0020387159
+[DEBUG] 2020-11-21 09:30:56,921 -- UserSplitting-SVD++ iter 79: loss = 14.811246, delta_loss = 0.37729976, RMSE = 1.127409, delta_RMSE = 0.001584, learn_rate = 0.0021406517
+[DEBUG] 2020-11-21 09:30:56,921 -- UserSplitting-SVD++ iter 80: loss = 14.425729, delta_loss = 0.38551703, RMSE = 1.125779, delta_RMSE = 0.001630, learn_rate = 0.0022476844
+[DEBUG] 2020-11-21 09:30:56,922 -- UserSplitting-SVD++ iter 81: loss = 14.0323305, delta_loss = 0.39339805, RMSE = 1.124103, delta_RMSE = 0.001676, learn_rate = 0.0023600685
+[DEBUG] 2020-11-21 09:30:56,923 -- UserSplitting-SVD++ iter 82: loss = 13.631442, delta_loss = 0.40088916, RMSE = 1.122382, delta_RMSE = 0.001721, learn_rate = 0.002478072
+[DEBUG] 2020-11-21 09:30:56,924 -- UserSplitting-SVD++ iter 83: loss = 13.223507, delta_loss = 0.4079344, RMSE = 1.120617, delta_RMSE = 0.001766, learn_rate = 0.0026019756
+[DEBUG] 2020-11-21 09:30:56,924 -- UserSplitting-SVD++ iter 84: loss = 12.8090315, delta_loss = 0.41447577, RMSE = 1.118807, delta_RMSE = 0.001810, learn_rate = 0.0027320744
+[DEBUG] 2020-11-21 09:30:56,930 -- UserSplitting-SVD++ iter 85: loss = 12.388578, delta_loss = 0.42045346, RMSE = 1.116954, delta_RMSE = 0.001853, learn_rate = 0.0028686782
+[DEBUG] 2020-11-21 09:30:56,931 -- UserSplitting-SVD++ iter 86: loss = 11.962771, delta_loss = 0.42580643, RMSE = 1.115059, delta_RMSE = 0.001895, learn_rate = 0.003012112
+[DEBUG] 2020-11-21 09:30:56,933 -- UserSplitting-SVD++ iter 87: loss = 11.532299, delta_loss = 0.43047276, RMSE = 1.113124, delta_RMSE = 0.001935, learn_rate = 0.0031627177
+[DEBUG] 2020-11-21 09:30:56,934 -- UserSplitting-SVD++ iter 88: loss = 11.097908, delta_loss = 0.43439037, RMSE = 1.111149, delta_RMSE = 0.001974, learn_rate = 0.0033208535
+[DEBUG] 2020-11-21 09:30:56,934 -- UserSplitting-SVD++ iter 89: loss = 10.660411, delta_loss = 0.43749762, RMSE = 1.109138, delta_RMSE = 0.002011, learn_rate = 0.0034868962
+[DEBUG] 2020-11-21 09:30:56,935 -- UserSplitting-SVD++ iter 90: loss = 10.220676, delta_loss = 0.43973428, RMSE = 1.107092, delta_RMSE = 0.002046, learn_rate = 0.003661241
+[DEBUG] 2020-11-21 09:30:56,936 -- UserSplitting-SVD++ iter 91: loss = 9.779634, delta_loss = 0.44104224, RMSE = 1.105013, delta_RMSE = 0.002079, learn_rate = 0.003844303
+[DEBUG] 2020-11-21 09:30:56,937 -- UserSplitting-SVD++ iter 92: loss = 9.338267, delta_loss = 0.44136667, RMSE = 1.102905, delta_RMSE = 0.002108, learn_rate = 0.0040365183
+[DEBUG] 2020-11-21 09:30:56,938 -- UserSplitting-SVD++ iter 93: loss = 8.897611, delta_loss = 0.4406571, RMSE = 1.100770, delta_RMSE = 0.002135, learn_rate = 0.0042383443
+[DEBUG] 2020-11-21 09:30:56,939 -- UserSplitting-SVD++ iter 94: loss = 8.458742, delta_loss = 0.4388686, RMSE = 1.098611, delta_RMSE = 0.002159, learn_rate = 0.004450261
+[DEBUG] 2020-11-21 09:30:56,940 -- UserSplitting-SVD++ iter 95: loss = 8.0227785, delta_loss = 0.43596315, RMSE = 1.096431, delta_RMSE = 0.002179, learn_rate = 0.004672774
+[DEBUG] 2020-11-21 09:30:56,940 -- UserSplitting-SVD++ iter 96: loss = 7.590868, delta_loss = 0.43191078, RMSE = 1.094235, delta_RMSE = 0.002196, learn_rate = 0.004906413
+[DEBUG] 2020-11-21 09:30:56,942 -- UserSplitting-SVD++ iter 97: loss = 7.164177, delta_loss = 0.42669117, RMSE = 1.092026, delta_RMSE = 0.002209, learn_rate = 0.0051517338
+[DEBUG] 2020-11-21 09:30:56,942 -- UserSplitting-SVD++ iter 98: loss = 6.743882, delta_loss = 0.42029476, RMSE = 1.089810, delta_RMSE = 0.002217, learn_rate = 0.0054093204
+[DEBUG] 2020-11-21 09:30:56,943 -- UserSplitting-SVD++ iter 99: loss = 6.3311577, delta_loss = 0.41272414, RMSE = 1.087589, delta_RMSE = 0.002221, learn_rate = 0.005679786
+[DEBUG] 2020-11-21 09:30:56,943 -- UserSplitting-SVD++ iter 100: loss = 5.9271626, delta_loss = 0.403995, RMSE = 1.085369, delta_RMSE = 0.002220, learn_rate = 0.005963776
+[DEBUG] 2020-11-21 09:30:56,943 -- UserSplitting-SVD++ evaluate test data ... 
+[DEBUG] 2020-11-21 09:30:56,944 -- UserSplitting-SVD++ has candidate items: 16
+[DEBUG] 2020-11-21 09:30:56,947 -- UserSplitting-SVD++ has writeen item recommendations to C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\MochilerosRD\RecommendationResults\UserSplitting-SVD++-top-10-items.txt
+[DEBUG] 2020-11-21 09:30:56,973 -- Learned models are saved to folder "C:\Users\Pgrm9\Desktop\CARSKit-1\context-aware_data_sets\MochilerosRD\RecommendationResults\UserSplitting-SVD++\"
+[INFO ] 2020-11-21 09:30:56,974 -- Final Results by UserSplitting-SVD++, Pre5: 0.066667,Pre10: 0.066667, Rec5: 0.333333, Rec10: 0.666667, AUC5: 0.416667, AUC10: 0.579365, MAP5: 0.083333, MAP10: 0.130952,NDCG5: 0.143559, NDCG10: 0.254670,MRR5: 0.083333, MRR10: 0.130952, numFactors: 100, numIter: 100, lrate: 5.0E-5, maxlrate: -1.0, regB: 1.0E-4, regU: 1.0E-4, regI: 1.0E-4, regC: 0.001, isBoldDriver: true, Time: '00:00','00:00'
 
-[DEBUG] 2020-10-18 03:18:35,346 -- Have been collected to file: results_all.txt
+[DEBUG] 2020-11-21 09:30:56,974 -- Have been collected to file: results_all.txt

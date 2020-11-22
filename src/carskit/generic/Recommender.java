@@ -704,7 +704,7 @@ public abstract class Recommender implements Runnable{
         int numTopNRanks = numRecs < 0 ? 10 : numRecs;
         if (isResultsOut) {
             preds = new ArrayList<String>(1500);
-            preds.add("# userId: recommendations in (itemId, ranking score) pairs, where a correct recommendation is denoted by symbol *."); // optional: file header
+            //preds.add("# userId: recommendations in (itemId, ranking score) pairs, where a correct recommendation is denoted by symbol *."); // optional: file header
             toFile = workingPath
                     + String.format("%s-top-%d-items%s.txt", algoName, numTopNRanks, foldInfo); // the output-file name
             FileIO.deleteFile(toFile); // delete possibly old files
@@ -838,7 +838,7 @@ public abstract class Recommender implements Runnable{
                         if (++count >= numTopNRanks)
                             break;
                         if (count < numTopNRanks)
-                            sb.append(", ");
+                            sb.append(";");
                     }
                 }
 
@@ -889,7 +889,7 @@ public abstract class Recommender implements Runnable{
                 // output predictions
                 if (isResultsOut) {
                     // restore back to the original user id
-                    preds.add(rateDao.getUserId(uu) + ", " + rateDao.getContextSituationFromInnerId(c) + ": " + sb.toString());
+                    preds.add(rateDao.getUserId(uu) + "-" + rateDao.getContextSituationFromInnerId(c) + "-" + sb.toString());
                     if (preds.size() >= 1000) {
                         FileIO.writeList(toFile, preds, true);
                         preds.clear();
